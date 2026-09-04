@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Intel Sustainability",
+    "imageSrc": "projects/intelcert.png",
+    "description": "Worked with Intel to query over 2,500 energy data rows to determine the next powerplant",
+    "skills": ["SQL", "Python", "Tableau", "Pandas"],
+    "demo": "",
+    "view": "https://www.credential.net/fa400e88-f04e-4437-9632-599cdad549bf?record_view=true"
+  },
+  {
+    "title": "3D-Printed Box Game",
+    "imageSrc": "projects/boxview.png",
+    "description": "Fun game made with C++, a custom PCB, Arduino Nano, and soldered components",
+    "skills": ["C++", "Circuits", "Arduino", "Soldering"],
+    "demo": "",
+    "view": "https://github.com/DelPineAI/Light_Box_Project"
+  },
+  {
+    "title": "Portfolio Website",
+    "imageSrc": "projects/codeject.png",
+    "description": "Used Node, React, and Figma for a custom personalized webview and JSON files for optimization",
+    "skills": ["React", "HTML", "Figma", "Node"],
+    "demo": "",
+    "view": "https://www.github.com/DelPineAI"
+  },
+  {
+    "title": "7 Segment Display",
+    "imageSrc": "projects/7segback1.png",
+    "description": "4-character display in VHDL with only Boolean algebra and K-maps that reveals any series of words",
+    "skills": ["VHDL", "Vivado", "FPGA", "Basys-3"],
+    "demo": "",
+    "view": "https://github.com/DelPineAI/7SegmentDisplay"
+  },
+  {
+    "title": "Calculator App",
+    "imageSrc": "projects/calc.png",
+    "description": "Simple calculator app with parenthesis functionality using HTML, CSS, and JavaScript",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "",
+    "view": "https://delpineai.github.io/Calculator_Web_App_HTML/"
+  }
+]

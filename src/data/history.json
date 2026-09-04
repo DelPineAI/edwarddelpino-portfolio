@@ -1,0 +1,35 @@
+[
+  {
+    "role": "Python Data Trainee",
+    "organization": "Global Career Accelerator",
+    "startDate": "Aug, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Engagement data analytics",
+      "Insights for user experience"
+    ],
+    "imageSrc": "history/gca.png"
+  },
+  {
+    "role": "Data Analyst Trainee",
+    "organization": "Podium Education",
+    "startDate": "Jan, 2024",
+    "endDate": "May, 2024",
+    "experiences": [
+      "Chose Intel's powerplant location",
+      "Gave Intel energy data insights"
+    ],
+    "imageSrc": "history/podium.png"
+  },
+  {
+    "role": "Multivariable Calculus Tutor",
+    "organization": "Florida International University",
+    "startDate": "Jan, 2023",
+    "endDate": "Dec, 2023",
+    "experiences": [
+      "Taught complex concepts",
+      "Dramatic increases in grades"
+    ],
+    "imageSrc": "history/fiu.png"
+  }
+]
