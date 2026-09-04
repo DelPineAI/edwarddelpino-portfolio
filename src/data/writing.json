@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "REPLACE-ME-post-one",
+    "title": "REPLACE ME — Title of your first post",
+    "date": "2026-01-15",
+    "tags": ["consciousness", "metaphysics"],
+    "excerpt": "REPLACE ME — one or two sentences that make someone want to open it. This shows in the collapsed state.",
+    "body": [
+      "REPLACE ME — first paragraph of the post. Each string in this array renders as its own paragraph.",
+      "REPLACE ME — second paragraph. Add as many as you want.",
+      "Paste your real posts here from your private blog. Keep the date in YYYY-MM-DD format so sorting works."
+    ]
+  },
+  {
+    "slug": "REPLACE-ME-post-two",
+    "title": "REPLACE ME — Title of your second post",
+    "date": "2025-11-02",
+    "tags": ["reality", "physics"],
+    "excerpt": "REPLACE ME — short teaser line.",
+    "body": [
+      "REPLACE ME — body paragraph.",
+      "REPLACE ME — body paragraph."
+    ]
+  },
+  {
+    "slug": "REPLACE-ME-post-three",
+    "title": "REPLACE ME — Title of your third post",
+    "date": "2025-08-20",
+    "tags": ["self-assimilation"],
+    "excerpt": "REPLACE ME — short teaser line.",
+    "body": [
+      "REPLACE ME — body paragraph."
+    ]
+  }
+]

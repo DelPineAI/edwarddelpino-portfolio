@@ -1,18 +1,5 @@
 import styles from './Page.module.css';
 
-const gaming = [
-  {
-    game: 'Rocket League',
-    rank: 'Champion II',
-    note: 'Mechanical consistency under pressure, and a lot of hours reading rotations.',
-  },
-  {
-    game: 'Call of Duty: Mobile',
-    rank: 'Legendary',
-    note: 'Top competitive tier, reached across multiple seasons.',
-  },
-];
-
 const misc = [
   {
     title: 'Minecraft Redstone',
@@ -26,6 +13,10 @@ const misc = [
     title: 'Bilingual',
     note: 'English and Spanish, both native. Most of my client work happens in both.',
   },
+  {
+    title: 'Tutoring',
+    note: 'Three years teaching Multivariable Calculus at FIU. Switching explanations until one lands is a skill that transfers everywhere.',
+  },
 ];
 
 export const More = () => {
@@ -34,22 +25,10 @@ export const More = () => {
       <h2 className={styles.title}>And More</h2>
 
       <div className={styles.lead}>
-        <p>The smaller things. Some of them are still competitive.</p>
+        <p>The smaller things that do not fit anywhere else.</p>
       </div>
 
-      <h3 className={styles.subheading}>Gaming</h3>
-      <div className={styles.cards}>
-        {gaming.map((g) => (
-          <div className={styles.card} key={g.game}>
-            <span className={styles.badge}>{g.rank}</span>
-            <h4>{g.game}</h4>
-            <p>{g.note}</p>
-          </div>
-        ))}
-      </div>
-
-      <h3 className={styles.subheading}>Everything Else</h3>
-      <div className={styles.cards}>
+      <div className={styles.cards} style={{ marginTop: '40px' }}>
         {misc.map((m) => (
           <div className={styles.card} key={m.title}>
             <h4>{m.title}</h4>
