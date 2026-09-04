@@ -7,11 +7,12 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Edward</h1>
         <p className={styles.description}>
-          I'm an aspiring software developer and data analyst driven by a deep
-          curiosity, with a strong foundation in Python, SQL, data
-          visualization, and full-stack web development.
+          I build software end to end, from the database and infrastructure up
+          to the interface, and I care as much about why something is being
+          built as how. Right now that means healthcare tools, data pipelines,
+          and the occasional circuit board.
         </p>
-        <a href="mailto:contact@edwarddelpino.info" className={styles.contactBtn}>
+        <a href="#contact" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>

@@ -1,42 +1,58 @@
 [
   {
+    "title": "MagicIntake",
+    "imageSrc": "projects/codeject.png",
+    "description": "AI document-intake SaaS reaching ~97% classification accuracy, replacing a fully manual intake process for a law firm client. Built the full stack solo and took it to market.",
+    "skills": ["React", "Node", "Supabase", "Docker", "n8n"],
+    "view": "https://www.magicintake.com"
+  },
+  {
+    "title": "Casos",
+    "imageSrc": "projects/codeject.png",
+    "description": "Two-sided marketplace where ABA agencies post de-identified open cases and clinicians filter by location, hours, and urgency. Validated across 7 discovery interviews before writing code.",
+    "skills": ["React", "Tailwind", "Supabase", "PostgreSQL"],
+    "view": "https://github.com/DelPineAI"
+  },
+  {
+    "title": "Barbershop Operations App",
+    "imageSrc": "projects/codeject.png",
+    "description": "Multi-tenant staff app sold to three barbershops: check-in system, peer-rating leaderboard, and structured biweekly performance reviews.",
+    "skills": ["React", "Node", "PostgreSQL"],
+    "view": "https://theexclusiveparlor.com"
+  },
+  {
     "title": "Intel Sustainability",
     "imageSrc": "projects/intelcert.png",
-    "description": "Worked with Intel to query over 2,500 energy data rows to determine the next powerplant",
+    "description": "Queried over 2,500 energy data rows with Intel to rank candidate power-plant locations, delivered as executive dashboards.",
     "skills": ["SQL", "Python", "Tableau", "Pandas"],
-    "demo": "",
     "view": "https://www.credential.net/fa400e88-f04e-4437-9632-599cdad549bf?record_view=true"
   },
   {
     "title": "3D-Printed Box Game",
     "imageSrc": "projects/boxview.png",
-    "description": "Fun game made with C++, a custom PCB, Arduino Nano, and soldered components",
+    "description": "Puzzle device built end to end: schematic, hand-soldered circuit, C++ firmware on an Arduino Nano, and a 3D-printed enclosure I designed.",
     "skills": ["C++", "Circuits", "Arduino", "Soldering"],
-    "demo": "",
     "view": "https://github.com/DelPineAI/Light_Box_Project"
-  },
-  {
-    "title": "Portfolio Website",
-    "imageSrc": "projects/codeject.png",
-    "description": "Used Node, React, and Figma for a custom personalized webview and JSON files for optimization",
-    "skills": ["React", "HTML", "Figma", "Node"],
-    "demo": "",
-    "view": "https://www.github.com/DelPineAI"
   },
   {
     "title": "7 Segment Display",
     "imageSrc": "projects/7segback1.png",
-    "description": "4-character display in VHDL with only Boolean algebra and K-maps that reveals any series of words",
+    "description": "Four-character display derived by hand from truth tables and K-maps, then built three ways: NAND-only logic, standard gates, and VHDL on a Basys 3 FPGA.",
     "skills": ["VHDL", "Vivado", "FPGA", "Basys-3"],
-    "demo": "",
     "view": "https://github.com/DelPineAI/7SegmentDisplay"
+  },
+  {
+    "title": "Portfolio Website",
+    "imageSrc": "projects/codeject.png",
+    "description": "This site. React and Vite with CSS modules, rebuilt from the production bundle after the original source was lost.",
+    "skills": ["React", "Vite", "Figma", "Netlify"],
+    "view": "https://github.com/DelPineAI/edwarddelpino-portfolio"
   },
   {
     "title": "Calculator App",
     "imageSrc": "projects/calc.png",
-    "description": "Simple calculator app with parenthesis functionality using HTML, CSS, and JavaScript",
+    "description": "Simple calculator with parenthesis handling, built in plain HTML, CSS, and JavaScript.",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "demo": "",
     "view": "https://delpineai.github.io/Calculator_Web_App_HTML/"
   }
 ]

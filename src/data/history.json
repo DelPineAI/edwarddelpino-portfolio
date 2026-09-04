@@ -1,34 +1,59 @@
 [
   {
-    "role": "Python Data Trainee",
-    "organization": "Global Career Accelerator",
-    "startDate": "Aug, 2024",
-    "endDate": "Present",
+    "role": "Full Stack Product Engineer",
+    "organization": "MagicIntake",
+    "startDate": "2025",
+    "endDate": "2026",
     "experiences": [
-      "Engagement data analytics",
-      "Insights for user experience"
+      "Shipped an AI document-intake SaaS to production",
+      "Re-architected single-client to multi-tenant",
+      "Ran go-to-market end to end"
     ],
     "imageSrc": "history/gca.png"
   },
   {
-    "role": "Data Analyst Trainee",
-    "organization": "Podium Education",
-    "startDate": "Jan, 2024",
-    "endDate": "May, 2024",
+    "role": "Software Development Freelance",
+    "organization": "Self-Employed",
+    "startDate": "Jun, 2024",
+    "endDate": "Present",
     "experiences": [
-      "Chose Intel's powerplant location",
-      "Gave Intel energy data insights"
+      "Multi-tenant app sold to 3 barbershops",
+      "6 client sites with SEO and custom CMS",
+      "50%+ average engagement uplift"
     ],
     "imageSrc": "history/podium.png"
   },
   {
+    "role": "Data Analyst Intern",
+    "organization": "Podium Global",
+    "startDate": "Sep, 2023",
+    "endDate": "Dec, 2024",
+    "experiences": [
+      "Ranked Intel power-plant sites from 2,500+ records",
+      "Cut leadership analysis time ~20%",
+      "Found a ~25% awards-week traffic spike"
+    ],
+    "imageSrc": "history/gca.png"
+  },
+  {
+    "role": "Registered Behavior Technician",
+    "organization": "ABA Therapy Provider",
+    "startDate": "Jun, 2025",
+    "endDate": "Present",
+    "experiences": [
+      "In-home therapy for children with autism",
+      "Clinical documentation and behavioral data"
+    ],
+    "imageSrc": "history/fiu.png"
+  },
+  {
     "role": "Multivariable Calculus Tutor",
     "organization": "Florida International University",
-    "startDate": "Jan, 2023",
-    "endDate": "Dec, 2023",
+    "startDate": "2022",
+    "endDate": "2024",
     "experiences": [
-      "Taught complex concepts",
-      "Dramatic increases in grades"
+      "30+ students over three years",
+      "Averaged three-letter-grade improvement"
     ],
     "imageSrc": "history/fiu.png"
   }
