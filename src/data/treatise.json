@@ -1,0 +1,163 @@
+{
+  "hero": {
+    "eyebrow": "A treatise · fragments 10—24",
+    "title": "αλήθεια",
+    "intro": "Aletheia. Greek: truth as unconcealment rather than correctness. My own name for the collection, used as a tag in my private archive for years.",
+    "chips": ["Twelve surviving pages", "Gaps left visible", "Writing since 2011"]
+  },
+  "epigraph": {
+    "eyebrow": "Before you read anything else",
+    "quote": "I am more skeptical of my own beliefs than anyone will ever be to my own.",
+    "attribution": "Edward Del Pino",
+    "portrait": {
+      "imageSrc": "philosophy/portrait.png",
+      "alt": "Edward Del Pino",
+      "caption": "Writing privately since 2011"
+    },
+    "note": {
+      "source": "From “Inner work,” Sept 2023",
+      "body": "The piece carries its own warning: people in heightened states mistake a new belief for a new identity. It names spiritual psychosis as a failure mode of the very experiences it describes."
+    }
+  },
+  "index": {
+    "eyebrow": "Contents · the surviving set",
+    "summary": "Twelve pages present · three missing",
+    "pages": [
+      { "n": 10, "state": "transcribed" },
+      { "n": 11, "state": "transcribed" },
+      { "n": 12, "state": "missing" },
+      { "n": 13, "state": "missing" },
+      { "n": 14, "state": "transcribed" },
+      { "n": 15, "state": "transcribed" },
+      { "n": 16, "state": "transcribed" },
+      { "n": 17, "state": "missing" },
+      { "n": 18, "state": "transcribed" },
+      { "n": 19, "state": "transcribed" },
+      { "n": 20, "state": "transcribed" },
+      { "n": 21, "state": "awaiting", "anchor": "p21" },
+      { "n": 22, "state": "awaiting", "anchor": "p21" },
+      { "n": 23, "state": "awaiting", "anchor": "p21" },
+      { "n": 24, "state": "awaiting", "anchor": "p21" }
+    ],
+    "legend": [
+      { "state": "transcribed", "label": "transcribed" },
+      { "state": "awaiting", "label": "awaiting transcription" },
+      { "state": "missing", "label": "missing" }
+    ]
+  },
+  "fragments": [
+    {
+      "page": 10,
+      "title": "Sound as an entry point",
+      "body": [
+        "Sound is the easiest place to start, because you can hear the mechanism working. Strike something and the disturbance moves outward through whatever is already there: air, water, a floor, a line of dominoes. The medium carries the wave.",
+        "Nothing in the medium travels with it. The first domino never reaches the last one. What arrives at your ear is not the object that was struck — it is a pattern moving through a medium that stays where it is. Hold onto that, because everything after this page is the same claim applied to larger things."
+      ],
+      "figure": {
+        "label": "Figure 01 · diagram slot",
+        "note": "dominoes transmitting a wave — the pulse advances, each domino stays home. Animated on scroll.",
+        "tag": "Fig. 1",
+        "caption": "The wave travels. The medium does not."
+      }
+    },
+    {
+      "page": 11,
+      "title": "Everything is energy, waves, vibration",
+      "body": [
+        "Once a wave is a pattern rather than a thing, the useful question is what else is a pattern. Heat, light, sound, radio: the same mechanism at different rates. Frequency is the variable that changes, not the kind of substance underneath.",
+        "We already treat this as ordinary in every domain where we can measure it. I am proposing we take it literally, and keep taking it literally past the point where it stays comfortable."
+      ],
+      "figure": {
+        "label": "Figure 02 · diagram slot",
+        "note": "waves at different frequencies, stacked and labeled by rate.",
+        "tag": "Fig. 2",
+        "caption": "One mechanism, read at different rates."
+      }
+    },
+    { "gap": true, "label": "PAGES 12 — 13", "note": "Missing from the surviving set" },
+    {
+      "page": 14,
+      "kicker": "The central image",
+      "title": "A spinning laser pointer traces a circle that is not there",
+      "body": [
+        "Spin it fast enough and the circle has a radius, a position, and an edge you could point at. It is one dot, moving faster than perception can separate. Persistence is doing the work. Substance is not.",
+        "That illusion is what matter is. Not a metaphor for it — the same trick at a rate we cannot resolve. Solidity is what a fast enough pattern looks like from inside the pattern."
+      ],
+      "figure": {
+        "label": "Figure 03 · primary diagram",
+        "note": "the spinning laser pointer and its phantom circle — one dot, then the ring it leaves behind. The animation should be the argument.",
+        "tag": "Fig. 3",
+        "caption": "Slow it down and the circle disappears. Nothing was removed."
+      }
+    },
+    {
+      "page": 15,
+      "title": "The universe is not mechanical",
+      "body": [
+        "A mechanical universe is made of parts that touch. Push here, something moves there, and the explanation is always contact. It is a good model and it stops working exactly where the interesting problems start.",
+        "What I think we are inside of is a vibrational space-time fabric: a medium that carries states rather than a machine that transmits force. Gears explain a clock. They do not explain why the clock is possible."
+      ],
+      "figure": {
+        "label": "Figure 04 · diagram slot",
+        "note": "the space-time fabric under vibration — a grid displaced by frequency rather than by mass.",
+        "tag": "Fig. 4",
+        "caption": "Not parts in contact. A medium holding a state."
+      }
+    },
+    {
+      "page": 16,
+      "title": "The quantum mold",
+      "body": [
+        "The brain produces a mold: a pattern that reality can align with. Not a picture of the world, and not a prediction about it. A shape offered to it.",
+        "Alignment is the whole claim. A mold does not force anything. It makes one outcome easier to fall into than another, the way a resonant cavity does not create sound but decides which frequencies survive in it."
+      ],
+      "figure": {
+        "label": "Figure 05 · diagram slot",
+        "note": "the brain emitting a quantum mold — the mold, then the outcome settling into it.",
+        "tag": "Fig. 5",
+        "caption": "The mold does not push. It decides what is easy."
+      }
+    },
+    { "gap": true, "label": "PAGE 17", "note": "Missing from the surviving set" },
+    {
+      "page": 18,
+      "title": "Consciousness, defined narrowly",
+      "body": [
+        "I use my own definition, and it is the reason the next sentence is not mysticism: consciousness is influence on the vibrational construction of reality. Nothing about inner life, nothing about experience, nothing about deserving the word.",
+        "On that definition everything has consciousness, in degrees. A stone influences very little and a mind influences a great deal, and the difference between them is quantity rather than category. Take the definition seriously or reject it, but it is doing work either way."
+      ]
+    },
+    {
+      "page": 19,
+      "title": "The broadcast",
+      "body": [
+        "A radio does not contain the music. Break it and the station keeps transmitting. The set is the condition for reception, not the source of the signal, and nobody confuses the two when the object is a radio."
+      ],
+      "pullQuote": {
+        "quote": "We are not the physical attributes that give us awareness. We are the broadcast.",
+        "caption": "The universe is the radio. We are the signal."
+      }
+    },
+    {
+      "page": 20,
+      "title": "Shadows cast downward",
+      "body": [
+        "A sphere casts a circle. The circle is not a smaller sphere, or a wrong sphere; it is a complete and faithful record of a sphere, taken one dimension down. Nothing is missing from the circle. Everything is missing from the circle.",
+        "Run it as a cascade. A thirteen-dimensional sphere casts a twelve-dimensional shadow, and that shadow casts the next, down through every level until one of them lands here. God, on this account, is the sphere. We are the last shadow in the chain, and the resemblance is real."
+      ],
+      "inlineQuote": "We are a shadow of God's perfection.",
+      "figure": {
+        "label": "Figure 06 · primary diagram",
+        "note": "dimensional shadows cascading downward, 13D to 3D, each level dimmer and flatter than the one above it. Tall format, revealed on scroll.",
+        "tag": "Fig. 6",
+        "caption": "Each level is a faithful record of the one above it, and less than it."
+      }
+    }
+  ],
+  "awaiting": {
+    "anchor": "p21",
+    "label": "PAGES 21 — 24",
+    "state": "Present · awaiting transcription",
+    "body": "Four pages survive and are not yet typed up. They land here, in order, when they are."
+  }
+}

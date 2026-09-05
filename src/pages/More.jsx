@@ -1,4 +1,5 @@
 import styles from './Page.module.css';
+import { Contact } from '../components/Contact/Contact';
 
 const misc = [
   {
@@ -21,6 +22,7 @@ const misc = [
 
 export const More = () => {
   return (
+    <>
     <section className={styles.container} id="more">
       <h2 className={styles.title}>And More</h2>
 
@@ -37,5 +39,7 @@ export const More = () => {
         ))}
       </div>
     </section>
+    <Contact />
+    </>
   );
 };

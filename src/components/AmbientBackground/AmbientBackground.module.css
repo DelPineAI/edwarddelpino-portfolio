@@ -1,0 +1,46 @@
+.field {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.slotOne   { position: absolute; top: -14vh;  left: -6vw;   width: 62vw; height: 62vw; }
+.slotTwo   { position: absolute; top: 38vh;   right: -14vw; width: 52vw; height: 52vw; }
+.slotThree { position: absolute; top: 112vh;  left: 18vw;   width: 44vw; height: 44vw; }
+
+.blob {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation-play-state: var(--amb, running);
+}
+
+.blobOne {
+  background: #19376db3;
+  filter: blur(100px);
+  animation: dcDrift1 34s ease-in-out infinite, dcBreathe 13s ease-in-out infinite;
+}
+
+.blobTwo {
+  background: #576cbc73;
+  filter: blur(120px);
+  animation: dcDrift2 46s ease-in-out infinite;
+}
+
+.blobThree {
+  background: #0b2447e6;
+  filter: blur(90px);
+  animation: dcDrift3 52s ease-in-out infinite;
+}
+
+.vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(120% 90% at 50% 0%, #04152d00 30%, #04152dc7 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blob { animation: none; }
+}

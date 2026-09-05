@@ -1,0 +1,147 @@
+{
+  "hero": {
+    "eyebrow": "Computer Science senior · FIU · Dec 2026",
+    "firstName": "Edward",
+    "lastName": "Del Pino",
+    "tagline": "I want to understand why something works before I trust it.",
+    "chips": ["3.6 GPA", "Full stack → infra", "English / Español", "Registered Behavior Technician"],
+    "primaryAction": { "label": "Selected work", "href": "#work" },
+    "secondaryAction": { "label": "Read αλήθεια", "to": "/philosophy" },
+    "scrollCue": "Scroll",
+    "card": {
+      "status": "Shipped · in production",
+      "title": "MagicIntake",
+      "body": "AI document intake for a law firm. Architecture, pipeline, deploy, and go-to-market — mine.",
+      "stats": [
+        { "value": "~97%", "label": "accuracy" },
+        { "value": "~1,200", "label": "documents" },
+        { "value": "1", "label": "paying client" }
+      ]
+    }
+  },
+  "stats": [
+    { "value": "~97", "suffix": "%", "body": "Classification accuracy across roughly 1,200 documents, replacing a fully manual intake process." },
+    { "value": "3", "body": "Independent implementations of one circuit, built to separate failures of the logic from failures of the implementation." },
+    { "value": "7", "body": "Discovery interviews on Casos before a line of code was written. The schema came out of them." }
+  ],
+  "caseStudy": {
+    "id": "work",
+    "eyebrow": "01 / Case study",
+    "title": "MagicIntake",
+    "link": { "label": "magicintake.com →", "href": "https://www.magicintake.com" },
+    "body": "A law firm was reading and sorting every incoming document by hand. I designed the architecture, wrote the pipeline, deployed it, and ran the go-to-market. It classifies at roughly 97% accuracy across about 1,200 documents.",
+    "callout": {
+      "label": "The decision I would defend",
+      "body": "Tenant isolation is enforced by row-level security in Postgres, not by application code. The database refuses the query. Application bugs cannot leak another firm's file."
+    },
+    "stack": [
+      { "term": "CLIENT", "value": "React / Vite" },
+      { "term": "API", "value": "Node" },
+      { "term": "DATA", "value": "Supabase Postgres · row-level security" },
+      { "term": "ORCHESTRATION", "value": "n8n · upload → classification → write" },
+      { "term": "INFRA", "value": "Docker behind Traefik" },
+      { "term": "BUSINESS", "value": "LLC formed on the first customer" }
+    ],
+    "image": {
+      "imageSrc": "projects/magicintake-cards.png",
+      "alt": "MagicIntake cards",
+      "caption": "Cards for the first sales calls"
+    },
+    "figure": {
+      "label": "Figure 01 · diagram slot",
+      "note": "the intake pipeline — upload, classify, write — with the RLS boundary drawn at the database. Canva artwork, animated on scroll.",
+      "tag": "Fig. 1",
+      "caption": "Documents enter once. Every read after that is scoped by the database, not by the app."
+    }
+  },
+  "sevenSegment": {
+    "eyebrow": "02 / Full treatment",
+    "title": "7-Segment Alphanumeric Display",
+    "body": "A four-character display, derived by hand from truth tables and Karnaugh maps, then built three separate ways to find out which failures belonged to the logic and which belonged to the implementation.",
+    "image": {
+      "imageSrc": "projects/7segback1.png",
+      "alt": "Basys 3 board displaying four characters, resting on the handwritten Karnaugh maps it was derived from",
+      "caption": "The board, on the notes it came from"
+    },
+    "figure": {
+      "label": "Figure 02 · diagram slot",
+      "note": "the same derivation redrawn — truth table → K-map → segment equation, one segment highlighted end to end.",
+      "tag": "Fig. 2",
+      "caption": "Left: the sheet the equations were reduced on. Right: the same work, redrawn to read."
+    },
+    "stages": [
+      {
+        "label": "STAGE 01",
+        "title": "Derivation by hand",
+        "body": "Truth tables for every character, then Karnaugh maps to reduce each segment to its minimal expression. No generator, no library."
+      },
+      {
+        "label": "STAGE 02",
+        "title": "NAND only",
+        "body": "Rebuilt on a breadboard using nothing but NAND gates, to prove the expressions held under a universal gate.",
+        "slot": "photo slot · NAND breadboard"
+      },
+      {
+        "label": "STAGE 03",
+        "title": "Standard gates",
+        "body": "The same logic in AND, OR, and NOT. Different chip count, different wiring faults, identical behavior.",
+        "slot": "photo slot · standard-gate breadboard"
+      },
+      {
+        "label": "STAGE 04",
+        "title": "VHDL on silicon",
+        "body": "Written in VHDL, synthesized in Vivado, running on a Basys 3 FPGA. The toolchain agreed with the paper.",
+        "image": {
+          "imageSrc": "projects/7segview.png",
+          "alt": "Basys 3 FPGA board displaying four characters"
+        },
+        "chips": ["VHDL", "Vivado", "Basys 3"]
+      }
+    ],
+    "control": {
+      "label": "Stage 05 · the control",
+      "title": "Rebuilt in redstone",
+      "body": "Then I built the same circuit again in Minecraft, out of redstone, to confirm the logic held independently of any toolchain. If it works in a game engine's crude gate model, the derivation was never the problem.",
+      "slot": "redstone build capture"
+    }
+  },
+  "shorterAnswers": {
+    "eyebrow": "03 / Also built",
+    "title": "Shorter answers",
+    "items": [
+      {
+        "n": "01",
+        "title": "Casos",
+        "body": "Two-sided marketplace for ABA therapy staffing. A structured-fields-only schema keeps the platform outside PHI scope by design rather than by policy.",
+        "action": "In development →",
+        "href": "https://github.com/DelPineAI"
+      },
+      {
+        "n": "02",
+        "title": "Magic Box",
+        "body": "Arduino Nano and C++. A 3×3 keypad matrix, nine LEDs, hand-soldered, in an enclosure I designed and printed.",
+        "action": "GitHub →",
+        "href": "https://github.com/DelPineAI/Light_Box_Project"
+      },
+      {
+        "n": "03",
+        "title": "Power-plant siting",
+        "body": "SQL to Pandas to Tableau over 2,500+ records with Intel, ranking candidate sites as executive dashboards.",
+        "action": "Certificate →",
+        "href": "https://github.com/DelPineAI"
+      }
+    ]
+  },
+  "dimensions": [
+    { "label": "Clinical", "body": "Registered Behavior Technician delivering in-home therapy to children with autism. It is where I learned to measure behavior before interpreting it." },
+    { "label": "Commercial", "body": "I ran my own go-to-market: cold outreach, demos, pricing, and the paperwork. The LLC exists because a customer said yes." },
+    { "label": "Range", "body": "From Boolean algebra on a breadboard to production infrastructure. Bilingual in English and Spanish, in Miami." }
+  ],
+  "teaser": {
+    "watermark": "αλ",
+    "eyebrow": "The other half",
+    "title": "αλήθεια",
+    "body": "I have been writing philosophy privately since 2011. A treatise on sound, vibration, consciousness, and dimensional shadow, plus the pieces around it. Twelve surviving pages of the treatise, numbered 10 through 24, gaps included.",
+    "action": { "label": "Enter the archive", "to": "/philosophy" }
+  }
+}

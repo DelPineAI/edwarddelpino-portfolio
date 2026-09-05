@@ -1,0 +1,109 @@
+.section {
+  position: relative;
+  z-index: 1;
+  padding: clamp(50px, 7vw, 110px) clamp(20px, 6vw, 90px);
+}
+
+.inner { width: min(1280px, 100%); margin: 0 auto; }
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ac2);
+}
+
+.summary {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: #ffffff70;
+}
+
+.grid {
+  margin-top: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.page {
+  display: grid;
+  place-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  font-family: var(--font-mono);
+  font-size: 17px;
+  text-decoration: none;
+  border: 1px solid #576cbc47;
+  transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+
+.transcribed {
+  color: var(--color-text);
+  background: linear-gradient(160deg, #19376d, #0b2447);
+}
+
+.transcribed:hover {
+  transform: translateY(-3px);
+  border-color: var(--ac2);
+  color: var(--color-text);
+}
+
+.awaiting {
+  color: #ffffff9c;
+  background: #0b244759;
+  border-style: dashed;
+}
+
+.awaiting:hover { transform: translateY(-3px); color: var(--color-text); }
+
+.missing {
+  color: #ffffff45;
+  background: transparent;
+  border-color: #576cbc26;
+  border-style: dotted;
+  text-decoration: line-through;
+  cursor: default;
+}
+
+.legend {
+  margin-top: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.legendItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ffffff70;
+}
+
+.swatch {
+  width: 13px;
+  height: 13px;
+  border-radius: 4px;
+  border: 1px solid #576cbc47;
+}
+
+@media screen and (max-width: 830px) {
+  .page { width: 48px; height: 48px; font-size: 15px; }
+}

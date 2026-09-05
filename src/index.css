@@ -1,5 +1,12 @@
 @import '@fontsource/outfit/400.css';
+@import '@fontsource/roboto/300.css';
 @import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+@import '@fontsource/bricolage-grotesque/700.css';
+@import '@fontsource/bricolage-grotesque/800.css';
+@import '@fontsource/dm-mono/400.css';
+@import '@fontsource/dm-mono/500.css';
 
 :root {
   --color-text: #fff;
@@ -8,6 +15,22 @@
   --color-dark: #0b2447;
   --color-bg: #04152d;
   --font-roboto: 'Roboto';
+
+  /* v3 design tokens.
+     Bricolage Grotesque ships no Greek subset, so 'αλήθεια' falls back.
+     Roboto is named second because it does ship Greek — this keeps that
+     fallback identical on every platform instead of OS-dependent. */
+  --font-display: 'Bricolage Grotesque', 'Roboto', system-ui, sans-serif;
+  --font-body: 'Roboto', system-ui, sans-serif;
+  --font-mono: 'DM Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --ac: #576cbc;
+  --ac2: #9db8f0;
+  --amb: running;
+
+  --line: #576cbc3d;
+  --line-soft: #576cbc26;
+  --panel: #061c39cc;
 }
 
 * {
@@ -19,4 +42,50 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+::selection {
+  background: #576cbc59;
+  color: #fff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  :root { --amb: paused; }
+}
+
+/* Ambient drift, ported from the design's helmet block. */
+@keyframes dcDrift1 {
+  0%   { transform: translate3d(0, 0, 0) scale(1); }
+  50%  { transform: translate3d(5vw, -4vh, 0) scale(1.14); }
+  100% { transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes dcDrift2 {
+  0%   { transform: translate3d(0, 0, 0) scale(1.05); }
+  50%  { transform: translate3d(-4vw, 5vh, 0) scale(0.92); }
+  100% { transform: translate3d(0, 0, 0) scale(1.05); }
+}
+@keyframes dcDrift3 {
+  0%   { transform: translate3d(0, 0, 0); }
+  50%  { transform: translate3d(3vw, 6vh, 0) scale(1.2); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes dcBreathe {
+  0%, 100% { opacity: 0.42; }
+  50%      { opacity: 0.78; }
+}
+@keyframes dcCue {
+  0%   { transform: translateY(0); opacity: 0.15; }
+  45%  { opacity: 0.75; }
+  100% { transform: translateY(12px); opacity: 0.15; }
+}
+@keyframes dcSweep {
+  0%   { transform: translateX(-30%) skewX(-18deg); }
+  100% { transform: translateX(130%) skewX(-18deg); }
 }

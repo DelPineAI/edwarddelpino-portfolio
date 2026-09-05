@@ -1,55 +1,30 @@
-import { useState } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import styles from './Navbar.module.css';
-import { getImageUrl } from '../../utils';
+import site from '../../data/site.json';
 
-export const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const { pathname } = useLocation();
-  const onHome = pathname === '/';
+export const Navbar = () => (
+  <nav className={styles.navbar}>
+    <Link className={styles.brand} to="/">
+      <span className={styles.brandName}>{site.brand.name}</span>
+      <span className={styles.brandLocation}>{site.brand.location}</span>
+    </Link>
 
-  return (
-    <nav className={styles.navbar}>
-      <Link className={styles.title} to="/">
-        Edward Del Pino
-      </Link>
-      <div className={styles.menu}>
-        <img
-          className={styles.menuBtn}
-          src={getImageUrl(menuOpen ? 'nav/closeIcon.png' : 'nav/menuIcon.png')}
-          alt="menu-button"
-          onClick={() => setMenuOpen(!menuOpen)}
-        />
-        <ul
-          className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ''}`}
-          onClick={() => setMenuOpen(false)}
+    <div className={styles.actions}>
+      {site.nav.map((item) => (
+        <NavLink
+          key={item.to}
+          to={item.to}
+          end={item.to === '/'}
+          className={({ isActive }) =>
+            `${styles.tab} ${isActive ? styles.tabActive : ''}`.trim()
+          }
         >
-          {onHome && (
-            <>
-              <li><a href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-            </>
-          )}
-          <li>
-            <NavLink
-              to="/philosophy"
-              className={({ isActive }) => (isActive ? styles.active : undefined)}
-            >
-              Philosophy
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/more"
-              className={({ isActive }) => (isActive ? styles.active : undefined)}
-            >
-              More
-            </NavLink>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  );
-};
+          {item.label}
+        </NavLink>
+      ))}
+      <a className={styles.resume} href={site.resume.href}>
+        {site.resume.label}
+      </a>
+    </div>
+  </nav>
+);

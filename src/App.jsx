@@ -1,8 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 import styles from './App.module.css';
 import { Navbar } from './components/Navbar/Navbar';
-import { Contact } from './components/Contact/Contact';
 import { ScrollToTop } from './components/ScrollToTop';
+import { AmbientBackground } from './components/AmbientBackground/AmbientBackground';
+import { ScrollProgress } from './components/ScrollProgress/ScrollProgress';
 import { Developer } from './pages/Developer';
 import { Philosophy } from './pages/Philosophy';
 import { More } from './pages/More';
@@ -11,6 +12,8 @@ function App() {
   return (
     <div className={styles.App}>
       <ScrollToTop />
+      <AmbientBackground />
+      <ScrollProgress />
       <Navbar />
       <Routes>
         <Route path="/" element={<Developer />} />
@@ -18,7 +21,6 @@ function App() {
         <Route path="/more" element={<More />} />
         <Route path="*" element={<Developer />} />
       </Routes>
-      <Contact />
     </div>
   );
 }

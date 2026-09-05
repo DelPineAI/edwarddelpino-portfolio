@@ -1,57 +1,113 @@
 .navbar {
-  position: relative;
+  position: fixed;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 35;
+  width: min(1280px, calc(100% - 28px));
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
-  z-index: 2;
-  margin: 0 10%;
-}
-.title {
-  font-size: 30px;
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--color-text);
-}
-.menuBtn { display: none; }
-.menu { display: flex; }
-.menuItems { display: flex; gap: 38px; list-style: none; align-items: center; }
-.menuItems a {
-  font-size: 25px;
-  color: var(--color-text);
-  text-decoration: none;
-  opacity: 0.9;
-  transition: opacity 0.2s;
-}
-.menuItems a:hover { opacity: 1; }
-.active {
-  opacity: 1 !important;
-  border-bottom: 2px solid var(--color-primary);
-  padding-bottom: 2px;
+  gap: 16px;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  padding: 10px 12px 10px 20px;
+  border-radius: 100px;
+  background: var(--panel);
+  backdrop-filter: blur(22px) saturate(1.3);
+  -webkit-backdrop-filter: blur(22px) saturate(1.3);
+  border: 1px solid var(--line);
+  box-shadow: 0 24px 50px -26px #000000e6, inset 0 1px 0 #ffffff1a;
 }
 
-@media screen and (max-width: 830px) {
-  .navbar { flex-direction: column; align-items: flex-start; }
-  .menu {
-    position: absolute;
-    right: 0;
-    margin-right: 1%;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 11px;
-    z-index: 3;
-  }
-  .menuBtn { display: block; cursor: pointer; }
-  .menuItems {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    gap: 13px;
-    border-radius: 10px;
-    background: #19376d;
-    background: linear-gradient(0deg, #19376d33, #19376d);
-    padding: 24px 33px;
-    box-shadow: 0 0 4px #00000040;
-  }
-  .menuOpen { display: flex; z-index: 1; }
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.brandName {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 19px;
+  letter-spacing: -0.02em;
+}
+
+.brandLocation {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #ffffff6b;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  row-gap: 8px;
+}
+
+.tab {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  padding: 9px 17px;
+  cursor: pointer;
+  opacity: 0.62;
+  transition: all 0.3s ease;
+}
+
+.tab:hover { opacity: 1; }
+
+.tabActive {
+  opacity: 1;
+  background: linear-gradient(180deg, #1b3d73, #102a55);
+  border-color: #576cbc99;
+  box-shadow: 0 10px 26px -12px rgba(0, 0, 0, 0.8),
+              inset 0 1px 0 #ffffff1f,
+              0 0 30px -12px #576cbcb3;
+}
+
+/* The Greek tab is set slightly larger and untransformed — uppercasing
+   Greek loses the accent on ή, so it stays in its authored form. */
+.tab:last-of-type {
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  text-transform: none;
+}
+
+.resume {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--color-bg);
+  background: linear-gradient(180deg, #e8effc, #9db8f0);
+  border-radius: 100px;
+  padding: 10px 18px;
+  text-decoration: none;
+  box-shadow: 0 10px 24px -10px #9db8f0a6, inset 0 1px 0 #fff;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s;
+}
+
+.resume:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 32px -10px #9db8f0cc, inset 0 1px 0 #fff;
+  color: var(--color-bg);
+}
+
+@media screen and (max-width: 640px) {
+  .navbar { justify-content: center; padding: 12px 14px; border-radius: 22px; }
+  .brandLocation { display: none; }
 }

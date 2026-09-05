@@ -1,0 +1,32 @@
+.section {
+  position: relative;
+  z-index: 1;
+  padding: clamp(50px, 7vw, 100px) clamp(20px, 6vw, 90px);
+}
+
+.inner {
+  width: min(1280px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: clamp(20px, 3vw, 40px);
+}
+
+.item { padding-top: 22px; border-top: 1px solid var(--line); }
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ac2);
+}
+
+.body {
+  margin-top: 14px;
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.65;
+  color: #ffffffb8;
+}

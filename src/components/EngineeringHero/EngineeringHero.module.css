@@ -1,0 +1,290 @@
+.section {
+  position: relative;
+  min-height: clamp(680px, 96vh, 1100px);
+  display: flex;
+  align-items: center;
+  padding: clamp(120px, 14vh, 190px) clamp(20px, 6vw, 90px) clamp(60px, 8vh, 110px);
+  overflow: hidden;
+}
+
+.grid {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -8%;
+  height: 74%;
+  perspective: 600px;
+  pointer-events: none;
+  opacity: 0.55;
+}
+
+.gridPlane {
+  position: absolute;
+  inset: 0;
+  transform: rotateX(73deg);
+  transform-origin: bottom center;
+  background-image:
+    linear-gradient(#576cbc33 1px, transparent 1px),
+    linear-gradient(90deg, #576cbc33 1px, transparent 1px);
+  background-size: 96px 96px;
+  mask-image: linear-gradient(to top, #000, transparent 68%);
+  -webkit-mask-image: linear-gradient(to top, #000, transparent 68%);
+}
+
+.inner {
+  position: relative;
+  width: min(1280px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: clamp(34px, 5vw, 70px);
+}
+
+.copy { flex: 1 1 min(100%, 560px); max-width: 760px; }
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: clamp(20px, 2.4vw, 30px);
+}
+
+.rule {
+  width: 34px;
+  height: 1px;
+  background: var(--ac);
+  box-shadow: 0 0 12px 1px #576cbc;
+}
+
+.eyebrowText {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ac2);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(50px, 8.4vw, 132px);
+  line-height: 0.9;
+  letter-spacing: -0.035em;
+  background: linear-gradient(168deg, #ffffff 8%, #cfdcf7 52%, #7f97d4 104%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 40px 80px #00000059;
+  text-wrap: balance;
+}
+
+.tagline {
+  margin-top: clamp(24px, 3vw, 38px);
+  font-family: var(--font-body);
+  font-size: clamp(20px, 2.3vw, 31px);
+  font-weight: 300;
+  line-height: 1.42;
+  color: #ffffffe0;
+  max-width: 24em;
+  text-wrap: pretty;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: clamp(26px, 3vw, 38px);
+}
+
+.chip {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #ffffffb8;
+  border: 1px solid #576cbc47;
+  background: #0b244766;
+  border-radius: 100px;
+  padding: 8px 16px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: clamp(30px, 3.4vw, 44px);
+}
+
+.primary,
+.secondary {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border-radius: 100px;
+  padding: 15px 28px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s, border-color 0.4s;
+}
+
+.primary {
+  color: var(--color-bg);
+  background: linear-gradient(180deg, #e8effc, #9db8f0);
+  box-shadow: 0 22px 44px -18px #9db8f0a6, inset 0 1px 0 #fff;
+}
+
+.primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 30px 56px -18px #9db8f0cc, inset 0 1px 0 #fff;
+  color: var(--color-bg);
+}
+
+.secondary {
+  color: var(--color-text);
+  background: #0b2447a6;
+  border: 1px solid #576cbc6b;
+  text-transform: none;
+}
+
+.secondary:hover {
+  transform: translateY(-3px);
+  border-color: var(--ac2);
+  box-shadow: 0 24px 46px -20px #576cbcb3;
+  color: var(--color-text);
+}
+
+.cardWrap {
+  flex: 1 1 min(100%, 340px);
+  max-width: 460px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  padding: clamp(24px, 2.6vw, 34px);
+  border-radius: 22px;
+  background: linear-gradient(158deg, #13315f 0%, #0a1e3d 58%, #061733 100%);
+  border: 1px solid #576cbc59;
+  box-shadow: 0 60px 100px -40px #000000f2, 0 20px 40px -20px #000000a6, inset 0 1px 0 #ffffff1f;
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.45s;
+  transform-style: preserve-3d;
+}
+
+.sweepMask {
+  position: absolute;
+  inset: 0;
+  border-radius: 22px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.sweep {
+  position: absolute;
+  top: -40%;
+  left: -20%;
+  width: 60%;
+  height: 180%;
+  background: linear-gradient(90deg, transparent, #ffffff14, transparent);
+  animation: dcSweep 9s ease-in-out infinite;
+  animation-play-state: var(--amb, running);
+}
+
+.cardHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.cardStatus {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ac2);
+}
+
+.cardDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #7ef0b5;
+  box-shadow: 0 0 14px 2px #7ef0b5a6;
+}
+
+.cardTitle {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(30px, 3.4vw, 42px);
+  letter-spacing: -0.02em;
+  margin-top: 16px;
+}
+
+.cardBody {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #ffffffb8;
+  margin-top: 10px;
+}
+
+.cardStats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 22px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.cardStatValue {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+}
+
+.cardStatLabel {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ffffff8a;
+  margin-top: 4px;
+}
+
+.cue {
+  position: absolute;
+  left: 50%;
+  bottom: clamp(24px, 4vh, 46px);
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.cueText {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #ffffff5c;
+}
+
+.cueLine {
+  width: 1px;
+  height: 34px;
+  background: linear-gradient(180deg, var(--ac2), transparent);
+  animation: dcCue 2.6s ease-in-out infinite;
+  animation-play-state: var(--amb, running);
+}
+
+@media screen and (max-width: 830px) {
+  .cue { display: none; }
+}
