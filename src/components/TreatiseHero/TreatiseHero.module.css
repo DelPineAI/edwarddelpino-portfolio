@@ -69,3 +69,18 @@
   text-transform: uppercase;
   color: #ffffff8a;
 }
+
+/* Index variant: the archive entries must reach the fold, so the hero gives up
+   its full-viewport height. Same type, same treatment, less air. */
+.compact {
+  min-height: 0;
+  padding: clamp(120px, 15vh, 170px) clamp(20px, 6vw, 90px) clamp(30px, 4vh, 50px);
+}
+
+.compact .title { font-size: clamp(56px, 10vw, 132px); }
+
+.compact .intro {
+  margin-top: clamp(18px, 2vw, 26px);
+  font-size: clamp(17px, 1.5vw, 20px);
+  max-width: 64ch;
+}

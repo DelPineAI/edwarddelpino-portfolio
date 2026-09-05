@@ -6,6 +6,7 @@ import { AmbientBackground } from './components/AmbientBackground/AmbientBackgro
 import { ScrollProgress } from './components/ScrollProgress/ScrollProgress';
 import { Developer } from './pages/Developer';
 import { Philosophy } from './pages/Philosophy';
+import { Treatise } from './pages/Treatise';
 import { More } from './pages/More';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Developer />} />
         <Route path="/philosophy" element={<Philosophy />} />
+        <Route path="/philosophy/treatise" element={<Treatise />} />
         <Route path="/more" element={<More />} />
         <Route path="*" element={<Developer />} />
       </Routes>

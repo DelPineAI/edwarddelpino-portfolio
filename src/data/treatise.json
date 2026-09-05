@@ -2,8 +2,11 @@
   "hero": {
     "eyebrow": "A treatise · fragments 10—24",
     "title": "αλήθεια",
-    "intro": "Aletheia. Greek: truth as unconcealment rather than correctness. My own name for the collection, used as a tag in my private archive for years.",
-    "chips": ["Twelve surviving pages", "Gaps left visible", "Writing since 2011"]
+    "chips": [
+      "Twelve surviving pages",
+      "Gaps left visible",
+      "Writing since 2011"
+    ]
   },
   "epigraph": {
     "eyebrow": "Before you read anything else",
@@ -23,26 +26,84 @@
     "eyebrow": "Contents · the surviving set",
     "summary": "Twelve pages present · three missing",
     "pages": [
-      { "n": 10, "state": "transcribed" },
-      { "n": 11, "state": "transcribed" },
-      { "n": 12, "state": "missing" },
-      { "n": 13, "state": "missing" },
-      { "n": 14, "state": "transcribed" },
-      { "n": 15, "state": "transcribed" },
-      { "n": 16, "state": "transcribed" },
-      { "n": 17, "state": "missing" },
-      { "n": 18, "state": "transcribed" },
-      { "n": 19, "state": "transcribed" },
-      { "n": 20, "state": "transcribed" },
-      { "n": 21, "state": "awaiting", "anchor": "p21" },
-      { "n": 22, "state": "awaiting", "anchor": "p21" },
-      { "n": 23, "state": "awaiting", "anchor": "p21" },
-      { "n": 24, "state": "awaiting", "anchor": "p21" }
+      {
+        "n": 10,
+        "state": "transcribed"
+      },
+      {
+        "n": 11,
+        "state": "transcribed"
+      },
+      {
+        "n": 12,
+        "state": "missing"
+      },
+      {
+        "n": 13,
+        "state": "missing"
+      },
+      {
+        "n": 14,
+        "state": "transcribed"
+      },
+      {
+        "n": 15,
+        "state": "transcribed"
+      },
+      {
+        "n": 16,
+        "state": "transcribed"
+      },
+      {
+        "n": 17,
+        "state": "missing"
+      },
+      {
+        "n": 18,
+        "state": "transcribed"
+      },
+      {
+        "n": 19,
+        "state": "transcribed"
+      },
+      {
+        "n": 20,
+        "state": "transcribed"
+      },
+      {
+        "n": 21,
+        "state": "awaiting",
+        "anchor": "p21"
+      },
+      {
+        "n": 22,
+        "state": "awaiting",
+        "anchor": "p21"
+      },
+      {
+        "n": 23,
+        "state": "awaiting",
+        "anchor": "p21"
+      },
+      {
+        "n": 24,
+        "state": "awaiting",
+        "anchor": "p21"
+      }
     ],
     "legend": [
-      { "state": "transcribed", "label": "transcribed" },
-      { "state": "awaiting", "label": "awaiting transcription" },
-      { "state": "missing", "label": "missing" }
+      {
+        "state": "transcribed",
+        "label": "transcribed"
+      },
+      {
+        "state": "awaiting",
+        "label": "awaiting transcription"
+      },
+      {
+        "state": "missing",
+        "label": "missing"
+      }
     ]
   },
   "fragments": [
@@ -74,7 +135,11 @@
         "caption": "One mechanism, read at different rates."
       }
     },
-    { "gap": true, "label": "PAGES 12 — 13", "note": "Missing from the surviving set" },
+    {
+      "gap": true,
+      "label": "PAGES 12 — 13",
+      "note": "Missing from the surviving set"
+    },
     {
       "page": 14,
       "kicker": "The central image",
@@ -118,7 +183,11 @@
         "caption": "The mold does not push. It decides what is easy."
       }
     },
-    { "gap": true, "label": "PAGE 17", "note": "Missing from the surviving set" },
+    {
+      "gap": true,
+      "label": "PAGE 17",
+      "note": "Missing from the surviving set"
+    },
     {
       "page": 18,
       "title": "Consciousness, defined narrowly",

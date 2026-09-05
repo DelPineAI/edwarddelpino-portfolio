@@ -1,42 +1,78 @@
 {
-  "eyebrow": "Elsewhere in the archive",
-  "items": [
+  "hero": {
+    "eyebrow": "The archive · eight bodies of work",
+    "title": "αλήθεια",
+    "intro": "Aletheia. Greek: truth as unconcealment rather than correctness. My own name for the collection, used as a tag in my private archive for years."
+  },
+  "entries": [
     {
-      "tag": "Sept 2023",
-      "title": "Inner work",
-      "body": "Inner and outer reality as reflections of each other. Long, and the only piece here that names its own failure mode."
+      "slug": "treatise",
+      "title": "The Treatise",
+      "greek": "αλήθεια",
+      "dateRange": "2024",
+      "state": "partial",
+      "stateLabel": "8 of 15 fragments transcribed",
+      "excerpt": "A treatise on sound, vibration, consciousness, and dimensional shadow, plus the pieces around it.",
+      "href": "/philosophy/treatise",
+      "featured": true
     },
     {
-      "tag": "Essay",
-      "title": "The essence",
-      "body": "Absolute truth as a coin whose other side is disgust. On being “mocked and ridiculed and mercilessly reduced to void” by the same essence that later completes you."
+      "slug": "inner-work",
+      "title": "Inner Work",
+      "dateRange": "Sept 2023",
+      "state": "awaiting",
+      "stateLabel": "Awaiting transcription",
+      "excerpt": "Inner and outer reality as reflections of each other. Long, and the only piece here that names its own failure mode."
     },
     {
-      "tag": "Essay",
-      "title": "Complexes and addiction",
-      "body": "A subpersonality relaying information to the ego, and the urgency it manufactures being “literally chemically addicting.” Ends at “an addiction encouraged by an identity.”"
+      "slug": "essence",
+      "title": "Essence",
+      "dateRange": "—",
+      "state": "awaiting",
+      "stateLabel": "Awaiting transcription",
+      "excerpt": "Absolute truth as a coin whose other side is disgust. On being “mocked and ridiculed and mercilessly reduced to void” by the same essence that later completes you."
     },
     {
-      "tag": "Reading",
-      "title": "Symbol and archetype",
-      "body": "The Athena statue: Medusa as chaos consuming you until you are frozen to stone, Athena as integration, Nike as what comes from taming chaos.",
+      "slug": "complexes-and-addiction",
+      "title": "Complexes and Addiction",
+      "dateRange": "—",
+      "state": "awaiting",
+      "stateLabel": "Awaiting transcription",
+      "excerpt": "A subpersonality relaying information to the ego, and the urgency it manufactures being “literally chemically addicting.” Ends at “an addiction encouraged by an identity.”"
+    },
+    {
+      "slug": "symbol-and-archetype",
+      "title": "Symbol and Archetype",
+      "dateRange": "—",
+      "state": "awaiting",
+      "stateLabel": "Awaiting transcription",
+      "excerpt": "The Athena statue: Medusa as chaos consuming you until you are frozen to stone, Athena as integration, Nike as what comes from taming chaos.",
       "annotation": "Annotation — “I made up the following and do not know Greek mythology, but this is what I want to see”"
     },
     {
-      "tag": "Note",
-      "title": "Time and synchronicity",
-      "body": "A two-dimensional bug crossing sheets of paper it cannot perceive as separate, while a three-dimensional observer sees the whole stack at once."
+      "slug": "time-and-synchronicity",
+      "title": "Time and Synchronicity",
+      "dateRange": "Oct 2023",
+      "state": "awaiting",
+      "stateLabel": "Awaiting transcription",
+      "excerpt": "A two-dimensional bug crossing sheets of paper it cannot perceive as separate, while a three-dimensional observer sees the whole stack at once."
     },
     {
-      "tag": "Talk · paper",
-      "title": "Power and attention",
-      "body": "A talk on AI and the totalitarian state, and an academic paper on Appiah and cultural imperialism.",
+      "slug": "power-and-attention",
+      "title": "Power and Attention",
+      "dateRange": "2025—2026",
+      "state": "partial",
+      "stateLabel": "Partial — includes a published talk",
+      "excerpt": "A talk on AI and the totalitarian state, and an academic paper on Appiah and cultural imperialism.",
       "link": { "label": "Watch the talk →", "href": "https://www.youtube.com/watch?v=c9LQNggQzxk" }
     },
     {
-      "tag": "2011",
-      "title": "Early work",
-      "body": "A time-travel plot written in the Notes app. Juvenilia, kept because it is where the arc starts.",
+      "slug": "early-work",
+      "title": "Early Work",
+      "dateRange": "2011—2022",
+      "state": "awaiting",
+      "stateLabel": "Awaiting transcription",
+      "excerpt": "A time-travel plot written in the Notes app. Juvenilia, kept because it is where the arc starts.",
       "annotation": "Framing — “A way for my brain to express its chaos, aka art”"
     }
   ]

@@ -1,61 +1,71 @@
 .section {
   position: relative;
   z-index: 1;
-  padding: clamp(80px, 11vw, 160px) clamp(20px, 6vw, 90px) clamp(70px, 9vw, 120px);
+  padding: clamp(20px, 3vw, 40px) clamp(20px, 6vw, 90px) clamp(70px, 9vw, 120px);
 }
 
 .inner { width: min(1280px, 100%); margin: 0 auto; }
 
-.head { padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+/* ---------- shared entry chrome ---------- */
+/* Every entry gets the same panel and the same text strength. The only thing
+   that changes between a routed entry and one awaiting transcription is the
+   affordance, never the legibility. */
 
-.eyebrow {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--ac2);
-}
-
-.grid {
-  margin-top: clamp(26px, 3vw, 42px);
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 18px;
-}
-
-.item {
+.entry {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  height: 100%;
   padding: 28px 26px;
   border-radius: 16px;
   background: linear-gradient(160deg, #19376d66, #0b244759);
   border: 1px solid #576cbc2e;
-  transition: transform 0.3s ease, border-color 0.3s ease;
+  text-decoration: none;
+  color: var(--color-text);
 }
 
-.item:hover { transform: translateY(-5px); border-color: #576cbc8c; }
+.entryLink {
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
 
-.tag {
-  align-self: flex-start;
+.entryLink:hover {
+  transform: translateY(-5px);
+  border-color: #576cbc8c;
+  box-shadow: 0 40px 70px -34px #000000e6;
+  color: var(--color-text);
+}
+
+.entryHead {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.num {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: var(--ac2);
+}
+
+.date {
+  font-family: var(--font-mono);
+  font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--ac2);
-  border: 1px solid #576cbc47;
-  border-radius: 100px;
-  padding: 5px 14px;
+  color: #ffffff8a;
 }
 
-.itemTitle {
+.title {
+  margin-top: 14px;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(20px, 2.2vw, 27px);
+  font-size: clamp(21px, 2.2vw, 27px);
   letter-spacing: -0.02em;
 }
 
-.itemText {
+.excerpt {
   margin-top: 10px;
   font-family: var(--font-body);
   font-size: 16px;
@@ -77,8 +87,50 @@
   color: #ffffff8a;
 }
 
-.link {
-  display: inline-block;
+.entryFoot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding-top: 20px;
+}
+
+/* ---------- state ---------- */
+/* Both states are stated plainly. `awaiting` borrows the dashed edge from the
+   treatise's own page-number gaps: unfinished, shown deliberately. */
+
+.state {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  border-radius: 100px;
+  padding: 6px 15px;
+}
+
+.partial {
+  color: var(--color-bg);
+  background: linear-gradient(180deg, #e8effc, #9db8f0);
+  border: 1px solid transparent;
+  font-weight: 600;
+}
+
+.awaiting {
+  color: #ffffffcc;
+  background: #04152d66;
+  border: 1px dashed #576cbc80;
+}
+
+.go {
+  font-family: var(--font-mono);
+  font-size: 17px;
+  color: var(--ac2);
+}
+
+.secondary {
+  align-self: flex-start;
   margin-top: 14px;
   font-family: var(--font-mono);
   font-size: 11px;
@@ -86,6 +138,109 @@
   text-transform: uppercase;
   color: var(--ac2);
   text-decoration: none;
+  border-bottom: 1px solid #576cbc59;
+  padding-bottom: 3px;
+  transition: color 0.25s ease, border-color 0.25s ease;
 }
 
-.link:hover { color: var(--color-text); }
+.secondary:hover { color: var(--color-text); border-color: var(--ac2); }
+
+/* ---------- featured ---------- */
+
+.featuredZone { margin-bottom: 18px; }
+
+.featured {
+  position: relative;
+  border-radius: 20px;
+  background: linear-gradient(158deg, #13315f 0%, #0a1e3d 62%, #061733 100%);
+  border: 1px solid #576cbc59;
+  box-shadow: 0 60px 100px -46px #000000f2, inset 0 1px 0 #ffffff1f;
+  overflow: hidden;
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.45s, border-color 0.45s;
+}
+
+.featured:hover {
+  border-color: #576cbc99;
+  box-shadow: 0 70px 120px -46px #000000f2, 0 0 70px -30px #576cbc80, inset 0 1px 0 #ffffff1f;
+}
+
+.featuredLink {
+  display: block;
+  position: relative;
+  padding: clamp(30px, 4vw, 52px);
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.featuredLink:hover { color: var(--color-text); }
+
+.watermark {
+  position: absolute;
+  right: clamp(-10px, -1vw, 0px);
+  bottom: -0.04em;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(90px, 14vw, 200px);
+  line-height: 0.8;
+  letter-spacing: -0.05em;
+  color: var(--ac);
+  opacity: 0.14;
+  pointer-events: none;
+  user-select: none;
+}
+
+.featuredBody { position: relative; max-width: 68ch; }
+
+.featuredFlag {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ac2);
+  border: 1px solid #576cbc59;
+  border-radius: 100px;
+  padding: 5px 13px;
+}
+
+.featuredTitle {
+  margin-top: 16px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(30px, 4.2vw, 54px);
+  letter-spacing: -0.032em;
+  line-height: 1.02;
+}
+
+.featuredExcerpt {
+  margin-top: 14px;
+  font-family: var(--font-body);
+  font-size: clamp(17px, 1.5vw, 20px);
+  font-weight: 300;
+  line-height: 1.62;
+  color: #ffffffd1;
+}
+
+.featuredGo {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ac2);
+}
+
+/* ---------- grid ---------- */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 18px;
+  align-items: stretch;
+}
+
+.grid > * { height: 100%; }
+
+@media screen and (max-width: 830px) {
+  .featuredLink { padding: 26px 22px; }
+  .watermark { font-size: clamp(70px, 22vw, 120px); }
+  .grid { grid-template-columns: 1fr; }
+}
