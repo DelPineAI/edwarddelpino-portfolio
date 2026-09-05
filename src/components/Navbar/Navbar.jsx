@@ -22,9 +22,11 @@ export const Navbar = () => (
           {item.label}
         </NavLink>
       ))}
-      <a className={styles.resume} href={site.resume.href}>
-        {site.resume.label}
-      </a>
+      {site.resume && (
+        <a className={styles.resume} href={site.resume.href}>
+          {site.resume.label}
+        </a>
+      )}
     </div>
   </nav>
 );

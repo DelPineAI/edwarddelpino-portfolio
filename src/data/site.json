@@ -1,22 +1,38 @@
 {
-  "brand": { "name": "Edward Del Pino", "location": "Miami" },
+  "brand": {
+    "name": "Edward Del Pino",
+    "location": "Miami"
+  },
   "nav": [
-    { "label": "Engineering", "to": "/" },
-    { "label": "αλήθεια", "to": "/philosophy" }
+    {
+      "label": "Engineering",
+      "to": "/"
+    },
+    {
+      "label": "αλήθεια",
+      "to": "/philosophy"
+    }
   ],
-  "resume": { "label": "Résumé", "href": "/resume.pdf" },
   "footers": {
     "engineering": {
       "note": "edwarddelpino.info · Miami, FL",
       "links": [
-        { "label": "GitHub", "href": "https://github.com/DelPineAI" },
-        { "label": "MagicIntake", "href": "https://www.magicintake.com" },
-        { "label": "Résumé", "href": "/resume.pdf" }
+        {
+          "label": "GitHub",
+          "href": "https://github.com/DelPineAI"
+        },
+        {
+          "label": "MagicIntake",
+          "href": "https://www.magicintake.com"
+        }
       ]
     },
     "treatise": {
       "note": "αλήθεια · edwarddelpino.info",
-      "back": { "label": "← Back to the engineering side", "to": "/" }
+      "back": {
+        "label": "← Back to the engineering side",
+        "to": "/"
+      }
     }
   }
 }
