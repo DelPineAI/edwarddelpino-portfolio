@@ -24,6 +24,10 @@
         {
           "label": "MagicIntake",
           "href": "https://www.magicintake.com"
+        },
+        {
+          "label": "Résumé",
+          "href": "/resume.pdf"
         }
       ]
     },
@@ -34,5 +38,9 @@
         "to": "/"
       }
     }
+  },
+  "resume": {
+    "label": "Résumé",
+    "href": "/resume.pdf"
   }
 }

@@ -4,46 +4,97 @@
     "firstName": "Edward",
     "lastName": "Del Pino",
     "tagline": "I want to understand why something works before I trust it.",
-    "chips": ["3.6 GPA", "Full stack → infra", "English / Español", "Registered Behavior Technician"],
-    "primaryAction": { "label": "Selected work", "href": "#work" },
-    "secondaryAction": { "label": "Read αλήθεια", "to": "/philosophy" },
+    "chips": [
+      "3.6 GPA",
+      "Full stack → infra",
+      "English / Español",
+      "Registered Behavior Technician"
+    ],
+    "primaryAction": {
+      "label": "Selected work",
+      "href": "#work"
+    },
+    "secondaryAction": {
+      "label": "Read αλήθεια",
+      "to": "/philosophy"
+    },
     "scrollCue": "Scroll",
     "card": {
       "status": "Shipped · in production",
       "title": "MagicIntake",
       "body": "AI document intake for a law firm. Architecture, pipeline, deploy, and go-to-market — mine.",
       "stats": [
-        { "value": "~97%", "label": "accuracy" },
-        { "value": "~1,200", "label": "documents" },
-        { "value": "1", "label": "paying client" }
+        {
+          "value": "~97%",
+          "label": "accuracy"
+        },
+        {
+          "value": "~1,200",
+          "label": "documents"
+        },
+        {
+          "value": "1",
+          "label": "paying client"
+        }
       ]
     }
   },
   "stats": [
-    { "value": "~97", "suffix": "%", "body": "Classification accuracy across roughly 1,200 documents, replacing a fully manual intake process." },
-    { "value": "3", "body": "Independent implementations of one circuit, built to separate failures of the logic from failures of the implementation." },
-    { "value": "7", "body": "Discovery interviews on Casos before a line of code was written. The schema came out of them." }
+    {
+      "value": "~97",
+      "suffix": "%",
+      "body": "Classification accuracy across roughly 1,200 documents, replacing a fully manual intake process."
+    },
+    {
+      "value": "3",
+      "body": "Independent implementations of one circuit, built to separate failures of the logic from failures of the implementation."
+    },
+    {
+      "value": "7",
+      "body": "Discovery interviews on Casos before a line of code was written. The schema came out of them."
+    }
   ],
   "caseStudy": {
     "id": "work",
     "eyebrow": "01 / Case study",
     "title": "MagicIntake",
-    "link": { "label": "magicintake.com →", "href": "https://www.magicintake.com" },
+    "link": {
+      "label": "magicintake.com →",
+      "href": "https://www.magicintake.com"
+    },
     "body": "A law firm was reading and sorting every incoming document by hand. I designed the architecture, wrote the pipeline, deployed it, and ran the go-to-market. It classifies at roughly 97% accuracy across about 1,200 documents.",
     "callout": {
       "label": "The decision I would defend",
       "body": "Tenant isolation is enforced by row-level security in Postgres, not by application code. The database refuses the query. Application bugs cannot leak another firm's file."
     },
     "stack": [
-      { "term": "CLIENT", "value": "React / Vite" },
-      { "term": "API", "value": "Node" },
-      { "term": "DATA", "value": "Supabase Postgres · row-level security" },
-      { "term": "ORCHESTRATION", "value": "n8n · upload → classification → write" },
-      { "term": "INFRA", "value": "Docker behind Traefik" },
-      { "term": "BUSINESS", "value": "LLC formed on the first customer" }
+      {
+        "term": "CLIENT",
+        "value": "React / Vite"
+      },
+      {
+        "term": "API",
+        "value": "Node"
+      },
+      {
+        "term": "DATA",
+        "value": "Supabase Postgres · row-level security"
+      },
+      {
+        "term": "ORCHESTRATION",
+        "value": "n8n · upload → classification → write"
+      },
+      {
+        "term": "INFRA",
+        "value": "Docker behind Traefik"
+      },
+      {
+        "term": "BUSINESS",
+        "value": "LLC formed on the first customer"
+      }
     ],
     "image": {
-      "imageSrc": "projects/magicintake-cards.png",
+      "imageSrc": "projects/magicintake-cards.jpeg",
       "alt": "MagicIntake cards",
       "caption": "Cards for the first sales calls"
     },
@@ -95,7 +146,11 @@
           "imageSrc": "projects/7segview.png",
           "alt": "Basys 3 FPGA board displaying four characters"
         },
-        "chips": ["VHDL", "Vivado", "Basys 3"]
+        "chips": [
+          "VHDL",
+          "Vivado",
+          "Basys 3"
+        ]
       }
     ],
     "control": {
@@ -133,15 +188,27 @@
     ]
   },
   "dimensions": [
-    { "label": "Clinical", "body": "Registered Behavior Technician delivering in-home therapy to children with autism. It is where I learned to measure behavior before interpreting it." },
-    { "label": "Commercial", "body": "I ran my own go-to-market: cold outreach, demos, pricing, and the paperwork. The LLC exists because a customer said yes." },
-    { "label": "Range", "body": "From Boolean algebra on a breadboard to production infrastructure. Bilingual in English and Spanish, in Miami." }
+    {
+      "label": "Clinical",
+      "body": "Registered Behavior Technician delivering in-home therapy to children with autism. It is where I learned to measure behavior before interpreting it."
+    },
+    {
+      "label": "Commercial",
+      "body": "I ran my own go-to-market: cold outreach, demos, pricing, and the paperwork. The LLC exists because a customer said yes."
+    },
+    {
+      "label": "Range",
+      "body": "From Boolean algebra on a breadboard to production infrastructure. Bilingual in English and Spanish, in Miami."
+    }
   ],
   "teaser": {
     "watermark": "αλ",
     "eyebrow": "The other half",
     "title": "αλήθεια",
     "body": "I have been writing philosophy privately since 2011. A treatise on sound, vibration, consciousness, and dimensional shadow, plus the pieces around it. Twelve surviving pages of the treatise, numbered 10 through 24, gaps included.",
-    "action": { "label": "Enter the archive", "to": "/philosophy" }
+    "action": {
+      "label": "Enter the archive",
+      "to": "/philosophy"
+    }
   }
 }
