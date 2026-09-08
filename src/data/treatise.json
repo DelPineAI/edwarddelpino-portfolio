@@ -1,10 +1,11 @@
 {
   "hero": {
-    "eyebrow": "A treatise · pages 9—25",
-    "title": "αλήθεια",
+    "eyebrow": "A treatise · pages 1—25",
+    "title": "What I think I Know",
+    "author": "Edward Del Pino",
     "chips": [
-      "Seventeen pages transcribed",
-      "Pages 1—8 absent",
+      "Twenty-five pages transcribed",
+      "Complete manuscript",
       "February 5, 2023"
     ]
   },
@@ -24,8 +25,40 @@
   },
   "index": {
     "eyebrow": "Contents · the surviving set",
-    "summary": "Seventeen pages present · pages 1—8 absent",
+    "summary": "Twenty-five pages present · nothing missing",
     "pages": [
+      {
+        "n": 1,
+        "state": "transcribed"
+      },
+      {
+        "n": 2,
+        "state": "transcribed"
+      },
+      {
+        "n": 3,
+        "state": "transcribed"
+      },
+      {
+        "n": 4,
+        "state": "transcribed"
+      },
+      {
+        "n": 5,
+        "state": "transcribed"
+      },
+      {
+        "n": 6,
+        "state": "transcribed"
+      },
+      {
+        "n": 7,
+        "state": "transcribed"
+      },
+      {
+        "n": 8,
+        "state": "transcribed"
+      },
       {
         "n": 9,
         "state": "transcribed"
@@ -104,18 +137,111 @@
   },
   "fragments": [
     {
-      "gap": true,
-      "label": "PAGES 1 — 8",
-      "note": "Missing from the surviving set"
+      "page": 1,
+      "title": "A Letter to Everything",
+      "body": [
+        "From me.",
+        "its funny because the whole point of this notebook was to be able to freely express my knowledge without fear. But even then, throughout this entire notebook I seem to find ~~myself~~ it difficult to release that which i think i know into my external world."
+      ],
+      "box": [
+        "👍 : i like what i wrote, & reccomend people to learn about.",
+        "👎 : i dislike it, poorly written, does not covey what i was thinking"
+      ]
+    },
+    {
+      "page": 2,
+      "title": "Introduction / How it works",
+      "body": [
+        "This notebook is a collection of concepts and ideas that I believe have strong significance in the question \"what exactly 'IS' this experience and how and why should it matter to the masses (the general population).\"",
+        "However, many claims will ~~be~~ range from an imaginary abstract concept, to a serious idea that is taken from direct, personal insight.",
+        "So,",
+        "To make things a little more clear, I will assign a number from 1 through 10 after every claim I make to indicate how confident I believe the claim to be real, or part of the ultimate reality.",
+        "For example, if I make the claim:",
+        "Apples are real and they exist (10).",
+        "I would put a 10 to show how confident I am of the claim to be true or \"real.\"",
+        "You can then assume that with a 10, I am this confident in apples being real because I have probably seen apples, touched, smelled them. You can also assume I ~~have~~ probably have strong associations and direct experiences with apples.",
+        "Think about all the ways that make you know apples are real. Thats what a 10 feels like."
+      ]
+    },
+    {
+      "page": 3,
+      "title": "The 10",
+      "body": [
+        "The point is. a 10 shows how serious and confident I am in an idea or concept.",
+        "~~It indicates to what degree It shows how much I have experienced it~~",
+        "It shows how much it has impacted my beliefs",
+        "It shows how SERIOUS I am, being the most skeptical person I know.",
+        "It indicates to what degree I have experienced it.",
+        "It shows the amount of an entanglement it has played on my mind, from how much I have investigated it."
+      ]
+    },
+    {
+      "page": 4,
+      "title": "Dream world",
+      "body": [
+        "You already know ima start off with a big one.",
+        "Pause ⏸",
+        "Disclaimer:",
+        "The stuff in here might be ~~inners~~ seriously triggering. But don't worry, i've done most of the suffering for you.",
+        "I will say somethings throughout that almost will definitely make you uncomfortable.",
+        "~~God's word is sharp~~ ~~God's word can~~ ~~But~~ can be sharp at times."
+      ]
+    },
+    {
+      "page": 5,
+      "title": "You",
+      "body": [
+        "No matter what I say here or what anyone tells you, ~~the~~ make sure it aligns with you. ~~Stop~~ Only believe what you have learned and can know to be true.",
+        "Not only because people are ~~ignorant~~ and may not understand everything they say (false prophets),",
+        "but also because people are decieving.",
+        "Truth matters because it is the only thing that should be accepted as a reality.",
+        "~~Once~~ Once we become aware…"
+      ]
+    },
+    {
+      "page": 6,
+      "title": "You",
+      "body": [
+        "…aware of ugliness, only truth can allow us to be saved and comfortable once again.",
+        "The only thing that is perfect is the Ultimate Truth or God, because then and only then can we humbly accept it, as it is absolute.",
+        "Even if it's the ugliest truth or ~~the~~ the most beautiful, it must still be accepted.",
+        "That is why truth is perfection. ~~because~~ because it is the only thing that removes us from uncertainty ~~in all~~ possibly in all dimensions of existence, ~~whether from~~"
+      ]
+    },
+    {
+      "page": 7,
+      "title": "You",
+      "body": [
+        "This is an essential reason why we may value truth.",
+        "I am here ~~writin~~ writing this for truth.",
+        "The day may come when you are ripped away from your truth, and the home and reality ~~is re~~ and you are reduced to nothing.",
+        "~~If they~~ If that day comes, ~~a notebook tha~~ you ~~with~~ will then value the truth as much as I do.",
+        "Finally, whether good or bad, acceptance is required to be able to take charge of our own will during…"
+      ]
+    },
+    {
+      "page": 8,
+      "title": "the Journey to truth",
+      "body": [
+        "Play ▷",
+        "— Dream world —",
+        "This existence is a dream (8).",
+        "This existence is 'dreamlike' (10).",
+        "i'll try ~~me~~ my best to include real facts and claims made by sophisticated & licensed scientists & researchers.",
+        "The entire experience that is presented to us seems to be similar to a dream in many ways, it's imaginary…"
+      ]
     },
     {
       "page": 9,
       "body": [
         "…or relating to imagination.",
-        "For now it will just be very general ideas because there's a lot to unpack. But bear with me, it will get much more elaborate as you continue.",
-        "▶ In quantum physics, there has been continuing & increasing evidence that everything is made of energy.",
-        "**Everything is energy.**",
-        "**Everything is made of vibration (energy) or waves.**"
+        "⏸",
+        "For now it will just be very general ideas because there's a lot to unpack. But bear with me, it will get much more elaborate as u continue.",
+        "▶",
+        "In quantum physics, there has been continuing & increasing evidence that everything is made of energy.",
+        "**Everything is energy (9).**",
+        "**Everything is made of vibration (energy) or waves (9).**",
+        "In this context, vibration…"
       ]
     },
     {

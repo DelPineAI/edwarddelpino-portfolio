@@ -10,6 +10,7 @@ export const TreatiseHero = ({ data, compact = false }) => (
     <div className={styles.inner}>
       <div className={styles.eyebrow}>{data.eyebrow}</div>
       <h1 className={styles.title}>{data.title}</h1>
+      {data.author && <p className={styles.author}>{data.author}</p>}
       {data.intro && <p className={styles.intro}>{data.intro}</p>}
 
       {data.chips && (
