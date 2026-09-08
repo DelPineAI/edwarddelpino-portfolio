@@ -1,6 +1,6 @@
 {
   "hero": {
-    "eyebrow": "The archive · eight bodies of work",
+    "eyebrow": "The archive · eleven bodies of work",
     "title": "αλήθεια",
     "intro": "Aletheia. Greek: truth as unconcealment rather than correctness. My own name for the collection, used as a tag in my private archive for years.",
     "chips": [
@@ -22,64 +22,164 @@
     {
       "slug": "inner-work",
       "title": "Inner Work",
-      "dateRange": "Sept 2023",
-      "state": "awaiting",
-      "stateLabel": "Awaiting transcription",
-      "excerpt": "Inner and outer reality as reflections of each other. Long, and the only piece here that names its own failure mode."
+      "dateRange": "September 24, 2023",
+      "readTime": "5 min",
+      "mood": "Essay",
+      "tags": [
+        "consciousness",
+        "synchronicity",
+        "inner work"
+      ],
+      "state": "complete",
+      "stateLabel": "Transcribed",
+      "excerpt": "Inner and outer reality as reflections of each other — and a warning about what happens to people who mistake the insight for an identity.",
+      "href": "/philosophy/inner-work"
     },
     {
       "slug": "essence",
       "title": "Essence",
-      "dateRange": "—",
-      "state": "awaiting",
-      "stateLabel": "Awaiting transcription",
-      "excerpt": "Absolute truth as a coin whose other side is disgust. On being “mocked and ridiculed and mercilessly reduced to void” by the same essence that later completes you."
+      "dateRange": "undated",
+      "readTime": "4 min",
+      "mood": "Essay",
+      "tags": [
+        "truth",
+        "essence",
+        "synchronicity"
+      ],
+      "state": "complete",
+      "stateLabel": "Transcribed",
+      "excerpt": "Absolute truth as a coin whose other side is disgust — and an essence that mocks you into nothing before it completes you.",
+      "href": "/philosophy/essence"
     },
     {
       "slug": "complexes-and-addiction",
       "title": "Complexes and Addiction",
-      "dateRange": "—",
-      "state": "awaiting",
-      "stateLabel": "Awaiting transcription",
-      "excerpt": "A subpersonality relaying information to the ego, and the urgency it manufactures being “literally chemically addicting.” Ends at “an addiction encouraged by an identity.”"
+      "dateRange": "undated",
+      "readTime": "1 min",
+      "mood": "Fragment",
+      "tags": [
+        "identity",
+        "ego",
+        "truth"
+      ],
+      "state": "complete",
+      "stateLabel": "Transcribed",
+      "excerpt": "A subpersonality feeding the ego, and the urgency it manufactures — chemically addicting, and disguised as a search for truth.",
+      "href": "/philosophy/complexes-and-addiction"
+    },
+    {
+      "slug": "abstinence-and-integration",
+      "title": "Abstinence and Integration",
+      "dateRange": "undated",
+      "readTime": "3 min",
+      "mood": "Essay",
+      "tags": [
+        "fasting",
+        "integration",
+        "the Great Question"
+      ],
+      "state": "complete",
+      "stateLabel": "Transcribed",
+      "excerpt": "Only in abstinence can we observe ourselves in the nude. We may find our bare being ugly — the point is to see it, and then integrate.",
+      "href": "/philosophy/abstinence-and-integration"
     },
     {
       "slug": "symbol-and-archetype",
       "title": "Symbol and Archetype",
-      "dateRange": "—",
-      "state": "awaiting",
-      "stateLabel": "Awaiting transcription",
-      "excerpt": "The Athena statue: Medusa as chaos consuming you until you are frozen to stone, Athena as integration, Nike as what comes from taming chaos.",
-      "annotation": "Annotation — “I made up the following and do not know Greek mythology, but this is what I want to see”"
+      "dateRange": "undated",
+      "readTime": "3 min",
+      "mood": "Essay",
+      "tags": [
+        "archetypes",
+        "mythology",
+        "chaos"
+      ],
+      "state": "complete",
+      "stateLabel": "Transcribed",
+      "excerpt": "Medusa as what happens when you don't take control of the great conflict. Athena as what happens when you do.",
+      "href": "/philosophy/symbol-and-archetype"
     },
     {
       "slug": "time-and-synchronicity",
       "title": "Time and Synchronicity",
-      "dateRange": "Oct 2023",
-      "state": "awaiting",
-      "stateLabel": "Awaiting transcription",
-      "excerpt": "A two-dimensional bug crossing sheets of paper it cannot perceive as separate, while a three-dimensional observer sees the whole stack at once."
+      "dateRange": "October 5, 2023",
+      "readTime": "4 min",
+      "mood": "Fragment",
+      "tags": [
+        "time",
+        "dimensions",
+        "synchronicity",
+        "God"
+      ],
+      "state": "complete",
+      "stateLabel": "Transcribed",
+      "excerpt": "A 2D bug crossing sheets of paper it can't perceive as separate — and God as a thirteenth-dimensional sphere casting shadows down to us.",
+      "href": "/philosophy/time-and-synchronicity"
+    },
+    {
+      "slug": "duality-and-nothingness",
+      "title": "Duality and Nothingness",
+      "dateRange": "undated",
+      "readTime": "2 min",
+      "mood": "Fragment",
+      "tags": [
+        "duality",
+        "nothingness",
+        "writing"
+      ],
+      "state": "complete",
+      "stateLabel": "Transcribed",
+      "excerpt": "Duality only exists within the human mind — and a note about why he writes any of this down at all.",
+      "href": "/philosophy/duality-and-nothingness"
+    },
+    {
+      "slug": "reprogramming",
+      "title": "Reprogramming",
+      "dateRange": "July 12, 2022",
+      "readTime": "1 min",
+      "mood": "Fragment",
+      "tags": [
+        "neuroscience",
+        "bioelectric",
+        "patterns"
+      ],
+      "state": "complete",
+      "stateLabel": "Transcribed",
+      "excerpt": "We are bioelectric beings. Change your state of mind and there are literally physical changes to your brain.",
+      "href": "/philosophy/reprogramming"
     },
     {
       "slug": "power-and-attention",
       "title": "Power and Attention",
-      "dateRange": "2025—2026",
+      "dateRange": "2024—2026",
+      "readTime": "varies",
+      "mood": "Unfiltered / Academic",
+      "tags": [
+        "power",
+        "media",
+        "narrative",
+        "AI"
+      ],
       "state": "partial",
-      "stateLabel": "Partial — includes a published talk",
-      "excerpt": "A talk on AI and the totalitarian state, and an academic paper on Appiah and cultural imperialism.",
-      "link": {
-        "label": "Watch the talk →",
-        "href": "https://www.youtube.com/watch?v=c9LQNggQzxk"
-      }
+      "stateLabel": "3 of 4 pieces · paper pending",
+      "excerpt": "A talk on AI and the totalitarian state, a campaign's marketing decision, and an academic paper on cultural imperialism.",
+      "href": "/philosophy/power-and-attention"
     },
     {
       "slug": "early-work",
       "title": "Early Work",
       "dateRange": "2011—2022",
-      "state": "awaiting",
-      "stateLabel": "Awaiting transcription",
-      "excerpt": "A time-travel plot written in the Notes app. Juvenilia, kept because it is where the arc starts.",
-      "annotation": "Framing — “A way for my brain to express its chaos, aka art”"
+      "readTime": "5 min",
+      "mood": "Ramble / Juvenilia",
+      "tags": [
+        "early",
+        "conformity",
+        "fiction"
+      ],
+      "state": "complete",
+      "stateLabel": "Transcribed",
+      "excerpt": "A time-travel plot written in the Notes app in 2011, and two rants from 2022.",
+      "href": "/philosophy/early-work"
     }
   ]
 }

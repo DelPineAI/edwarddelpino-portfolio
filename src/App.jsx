@@ -7,6 +7,7 @@ import { ScrollProgress } from './components/ScrollProgress/ScrollProgress';
 import { Developer } from './pages/Developer';
 import { Philosophy } from './pages/Philosophy';
 import { Treatise } from './pages/Treatise';
+import { Piece } from './pages/Piece';
 import { More } from './pages/More';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Developer />} />
         <Route path="/philosophy" element={<Philosophy />} />
         <Route path="/philosophy/treatise" element={<Treatise />} />
+        <Route path="/philosophy/:slug" element={<Piece />} />
         <Route path="/more" element={<More />} />
         <Route path="*" element={<Developer />} />
       </Routes>

@@ -237,3 +237,9 @@
 }
 
 .boxLine + .boxLine { margin-top: 12px; }
+
+/* Ordinary emphasis in the essays — same italic, no insertion caret. */
+.emphasis {
+  font-style: italic;
+  color: var(--ac2);
+}

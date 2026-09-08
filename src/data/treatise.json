@@ -11,14 +11,14 @@
   "epigraph": {
     "eyebrow": "Before you read anything else",
     "quote": "I am more skeptical of my own beliefs than anyone will ever be to my own.",
-    "attribution": "Edward Del Pino",
+    "attribution": "Edward Del Pino · Abstinence and Integration",
     "portrait": {
       "imageSrc": "philosophy/portrait.png",
       "alt": "Edward Del Pino",
       "caption": "Writing privately since 2011"
     },
     "note": {
-      "source": "From “Inner work,” Sept 2023",
+      "source": "On “Inner Work,” Sept 2023",
       "body": "The piece carries its own warning: people in heightened states mistake a new belief for a new identity. It names spiritual psychosis as a failure mode of the very experiences it describes."
     }
   },
@@ -292,5 +292,9 @@
       "label": "ENDS MID-SENTENCE",
       "note": "The remainder of the page is blank. The manuscript stops here."
     }
-  ]
+  ],
+  "notation": {
+    "label": "Notation",
+    "body": "Numbers in parentheses are my own confidence in the claim, from 1 to 10."
+  }
 }

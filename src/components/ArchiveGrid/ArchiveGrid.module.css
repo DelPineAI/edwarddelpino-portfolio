@@ -184,7 +184,7 @@
   line-height: 0.8;
   letter-spacing: -0.05em;
   color: var(--ac);
-  opacity: 0.14;
+  opacity: 0.22;
   pointer-events: none;
   user-select: none;
 }
@@ -243,4 +243,12 @@
   .featuredLink { padding: 26px 22px; }
   .watermark { font-size: clamp(70px, 22vw, 120px); }
   .grid { grid-template-columns: 1fr; }
+}
+
+/* A work whose surviving text is fully transcribed. */
+.complete {
+  color: var(--ac2);
+  background: #19376d99;
+  border: 1px solid #576cbc99;
+  font-weight: 600;
 }

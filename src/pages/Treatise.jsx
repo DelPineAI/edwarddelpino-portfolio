@@ -14,6 +14,12 @@ export const Treatise = () => (
 
     <section className={styles.fragments}>
       <div className={styles.inner}>
+        {treatise.notation && (
+          <div className={styles.notation}>
+            <span className={styles.notationLabel}>{treatise.notation.label}</span>
+            <span className={styles.notationBody}>{treatise.notation.body}</span>
+          </div>
+        )}
         {treatise.fragments.map((item) =>
           item.gap ? (
             <FragmentGap key={item.label} label={item.label} note={item.note} />

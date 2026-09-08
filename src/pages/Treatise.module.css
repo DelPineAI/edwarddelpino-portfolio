@@ -8,3 +8,32 @@
   width: min(1280px, 100%);
   margin: 0 auto;
 }
+
+/* Explains the author's (n) marks before the reader meets the first one. */
+.notation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 16px;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #0b244759;
+}
+
+.notationLabel {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ac2);
+}
+
+.notationBody {
+  flex: 1 1 420px;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #ffffffb8;
+}

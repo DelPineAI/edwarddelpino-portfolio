@@ -23,7 +23,7 @@ const WRAPPERS = [
 const ILLEGIBLE = /\[struck[^\]]*\]/;
 const RATING = /\((\d{1,2})\)/;
 
-export const renderInline = (text, key = 'i') => {
+export const renderInline = (text, key = 'i', variant = 'manuscript') => {
   if (typeof text !== 'string' || !text) return text;
 
   let best = null;
@@ -50,8 +50,15 @@ export const renderInline = (text, key = 'i') => {
   if (kind === 'wrap') {
     const Tag = best.rule.tag;
     node = (
-      <Tag key={`${key}-w`} className={styles[best.rule.cls]}>
-        {renderInline(m[1], `${key}-w-in`)}
+      <Tag
+        key={`${key}-w`}
+        className={
+          best.rule.cls === 'inserted' && variant === 'prose'
+            ? styles.emphasis
+            : styles[best.rule.cls]
+        }
+      >
+        {renderInline(m[1], `${key}-w-in`, variant)}
       </Tag>
     );
   } else if (kind === 'illegible') {
@@ -73,7 +80,7 @@ export const renderInline = (text, key = 'i') => {
     <>
       {before}
       {node}
-      {renderInline(after, `${key}-a`)}
+      {renderInline(after, `${key}-a`, variant)}
     </>
   );
 };
