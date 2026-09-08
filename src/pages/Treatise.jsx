@@ -21,7 +21,7 @@ export const Treatise = () => (
             <Fragment key={item.page} data={item} />
           )
         )}
-        <FragmentAwaiting data={treatise.awaiting} />
+        {treatise.awaiting && <FragmentAwaiting data={treatise.awaiting} />}
       </div>
     </section>
 

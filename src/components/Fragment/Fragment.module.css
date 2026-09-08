@@ -163,3 +163,77 @@
   line-height: 1.66;
   color: #ffffffb8;
 }
+
+/* ---------- manuscript markup ---------- */
+/* Edits the author made on the page are part of the document, so they are
+   shown rather than resolved: struck text stays readable, insertions keep
+   their caret, and an unrecoverable scribble is named as one. */
+
+.struck {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #9db8f0b3;
+  opacity: 0.68;
+}
+
+.strong {
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+/* inserted above the line — raised slightly and marked with a caret */
+.inserted {
+  color: var(--ac2);
+  font-style: italic;
+}
+
+.inserted::before {
+  content: '⌃';
+  font-style: normal;
+  font-size: 0.72em;
+  vertical-align: 0.42em;
+  margin-right: 0.12em;
+  opacity: 0.75;
+}
+
+.illegible {
+  font-family: var(--font-mono);
+  font-size: 0.82em;
+  letter-spacing: 0.04em;
+  color: #ffffff70;
+  white-space: nowrap;
+}
+
+/* the author's own 1-10 confidence rating for a statement */
+.rating {
+  font-family: var(--font-mono);
+  font-size: 0.78em;
+  vertical-align: 0.28em;
+  color: var(--ac2);
+  border: 1px solid #576cbc59;
+  border-radius: 100px;
+  padding: 1px 7px;
+  margin-left: 4px;
+  white-space: nowrap;
+  cursor: help;
+}
+
+/* a boxed / underlined block in the original */
+.box {
+  margin-top: 22px;
+  padding: 24px 26px;
+  border: 1px solid #576cbc59;
+  border-left: 2px solid var(--ac);
+  border-radius: 12px;
+  background: #0b244766;
+}
+
+.boxLine {
+  font-family: var(--font-body);
+  font-size: clamp(17px, 1.45vw, 20px);
+  font-weight: 300;
+  line-height: 1.7;
+  color: #ffffffd1;
+}
+
+.boxLine + .boxLine { margin-top: 12px; }

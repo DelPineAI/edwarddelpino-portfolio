@@ -2,17 +2,20 @@
   "hero": {
     "eyebrow": "The archive · eight bodies of work",
     "title": "αλήθεια",
-    "intro": "Aletheia. Greek: truth as unconcealment rather than correctness. My own name for the collection, used as a tag in my private archive for years."
+    "intro": "Aletheia. Greek: truth as unconcealment rather than correctness. My own name for the collection, used as a tag in my private archive for years.",
+    "chips": [
+      "Writing since 2011"
+    ]
   },
   "entries": [
     {
       "slug": "treatise",
       "title": "The Treatise",
       "greek": "αλήθεια",
-      "dateRange": "2024",
+      "dateRange": "February 5, 2023",
       "state": "partial",
-      "stateLabel": "8 of 15 fragments transcribed",
-      "excerpt": "A treatise on sound, vibration, consciousness, and dimensional shadow, plus the pieces around it.",
+      "stateLabel": "Fully transcribed · pages 1—8 absent",
+      "excerpt": "A treatise on sound, vibration, consciousness, and what we are relative to physical reality.",
       "href": "/philosophy/treatise",
       "featured": true
     },
@@ -64,7 +67,10 @@
       "state": "partial",
       "stateLabel": "Partial — includes a published talk",
       "excerpt": "A talk on AI and the totalitarian state, and an academic paper on Appiah and cultural imperialism.",
-      "link": { "label": "Watch the talk →", "href": "https://www.youtube.com/watch?v=c9LQNggQzxk" }
+      "link": {
+        "label": "Watch the talk →",
+        "href": "https://www.youtube.com/watch?v=c9LQNggQzxk"
+      }
     },
     {
       "slug": "early-work",

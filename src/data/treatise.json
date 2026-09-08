@@ -1,11 +1,11 @@
 {
   "hero": {
-    "eyebrow": "A treatise · fragments 10—24",
+    "eyebrow": "A treatise · pages 9—25",
     "title": "αλήθεια",
     "chips": [
-      "Twelve surviving pages",
-      "Gaps left visible",
-      "Writing since 2011"
+      "Seventeen pages transcribed",
+      "Pages 1—8 absent",
+      "February 5, 2023"
     ]
   },
   "epigraph": {
@@ -24,8 +24,12 @@
   },
   "index": {
     "eyebrow": "Contents · the surviving set",
-    "summary": "Twelve pages present · three missing",
+    "summary": "Seventeen pages present · pages 1—8 absent",
     "pages": [
+      {
+        "n": 9,
+        "state": "transcribed"
+      },
       {
         "n": 10,
         "state": "transcribed"
@@ -36,11 +40,11 @@
       },
       {
         "n": 12,
-        "state": "missing"
+        "state": "transcribed"
       },
       {
         "n": 13,
-        "state": "missing"
+        "state": "transcribed"
       },
       {
         "n": 14,
@@ -56,7 +60,7 @@
       },
       {
         "n": 17,
-        "state": "missing"
+        "state": "transcribed"
       },
       {
         "n": 18,
@@ -72,161 +76,221 @@
       },
       {
         "n": 21,
-        "state": "awaiting",
-        "anchor": "p21"
+        "state": "transcribed"
       },
       {
         "n": 22,
-        "state": "awaiting",
-        "anchor": "p21"
+        "state": "transcribed"
       },
       {
         "n": 23,
-        "state": "awaiting",
-        "anchor": "p21"
+        "state": "transcribed"
       },
       {
         "n": 24,
-        "state": "awaiting",
-        "anchor": "p21"
+        "state": "transcribed"
+      },
+      {
+        "n": 25,
+        "state": "transcribed"
       }
     ],
     "legend": [
       {
         "state": "transcribed",
         "label": "transcribed"
-      },
-      {
-        "state": "awaiting",
-        "label": "awaiting transcription"
-      },
-      {
-        "state": "missing",
-        "label": "missing"
       }
     ]
   },
   "fragments": [
     {
-      "page": 10,
-      "title": "Sound as an entry point",
-      "body": [
-        "Sound is the easiest place to start, because you can hear the mechanism working. Strike something and the disturbance moves outward through whatever is already there: air, water, a floor, a line of dominoes. The medium carries the wave.",
-        "Nothing in the medium travels with it. The first domino never reaches the last one. What arrives at your ear is not the object that was struck — it is a pattern moving through a medium that stays where it is. Hold onto that, because everything after this page is the same claim applied to larger things."
-      ],
-      "figure": {
-        "label": "Figure 01 · diagram slot",
-        "note": "dominoes transmitting a wave — the pulse advances, each domino stays home. Animated on scroll.",
-        "tag": "Fig. 1",
-        "caption": "The wave travels. The medium does not."
-      }
-    },
-    {
-      "page": 11,
-      "title": "Everything is energy, waves, vibration",
-      "body": [
-        "Once a wave is a pattern rather than a thing, the useful question is what else is a pattern. Heat, light, sound, radio: the same mechanism at different rates. Frequency is the variable that changes, not the kind of substance underneath.",
-        "We already treat this as ordinary in every domain where we can measure it. I am proposing we take it literally, and keep taking it literally past the point where it stays comfortable."
-      ],
-      "figure": {
-        "label": "Figure 02 · diagram slot",
-        "note": "waves at different frequencies, stacked and labeled by rate.",
-        "tag": "Fig. 2",
-        "caption": "One mechanism, read at different rates."
-      }
-    },
-    {
       "gap": true,
-      "label": "PAGES 12 — 13",
+      "label": "PAGES 1 — 8",
       "note": "Missing from the surviving set"
     },
     {
-      "page": 14,
-      "kicker": "The central image",
-      "title": "A spinning laser pointer traces a circle that is not there",
+      "page": 9,
       "body": [
-        "Spin it fast enough and the circle has a radius, a position, and an edge you could point at. It is one dot, moving faster than perception can separate. Persistence is doing the work. Substance is not.",
-        "That illusion is what matter is. Not a metaphor for it — the same trick at a rate we cannot resolve. Solidity is what a fast enough pattern looks like from inside the pattern."
-      ],
-      "figure": {
-        "label": "Figure 03 · primary diagram",
-        "note": "the spinning laser pointer and its phantom circle — one dot, then the ring it leaves behind. The animation should be the argument.",
-        "tag": "Fig. 3",
-        "caption": "Slow it down and the circle disappears. Nothing was removed."
-      }
+        "…or relating to imagination.",
+        "For now it will just be very general ideas because there's a lot to unpack. But bear with me, it will get much more elaborate as you continue.",
+        "▶ In quantum physics, there has been continuing & increasing evidence that everything is made of energy.",
+        "**Everything is energy.**",
+        "**Everything is made of vibration (energy) or waves.**"
+      ]
+    },
+    {
+      "page": 10,
+      "title": "Sound / Waves",
+      "body": [
+        "can be seen as ~~simple~~ a ripple of bends in space.",
+        "This is incredibly difficult to explain or imagine. So I will use sound as an analogy.",
+        "Even with just a little understanding of physics, we know that sound is a constant collision of particles, or a wave.",
+        "~~Sound itself is not something material, but is~~",
+        "Sound and other waves that we experience everyday are more \"mechanical\" than the waves we are referring to when talking about…"
+      ]
+    },
+    {
+      "page": 11,
+      "body": [
+        "…energy.",
+        "Mechanical in the sense that it consists of definitive working parts that are much easier to imagine.",
+        "Waves ~~and vibration~~ can be seen anywhere.",
+        "Dominoes repeatedly falling one after the other can be used to depict the way sound travels through a medium.",
+        "So, ~~we~~ sound (waves) are not ~~our~~ a material thing but instead are the ~~medium or~~ pattern we see in interactions / relationships of mediums."
+      ]
+    },
+    {
+      "page": 12,
+      "title": "Energy of Reality",
+      "body": [
+        "Anyways, everything is composed of vibration & energy.",
+        "Everything you are experiencing or reality is simply the warping or incredibly fast vibration of the \"fabric\" of reality, or space, or space-time.",
+        "Ancient religions seem to have known this. I learned from an external source (rather than internal) that ancient religions & modern religions say the universe is a song, or that it was sung into existence. Or spoken into existence. Christianity talks about the WORD of God (spoken)."
+      ]
+    },
+    {
+      "page": 13,
+      "body": [
+        "I learned this & many other things by exploring internally.",
+        "Uni-verse. One song.",
+        "The universe is a fabric that is constantly vibrating (energy), and to us observers we experience the illusion of it being material.",
+        "~~Back to quantum physics if—~~ ~~since this universe is a field of \"fabric\" that is warped in a vibrating way~~ ~~since everything has a vibration & can be tuned—~~"
+      ]
+    },
+    {
+      "page": 14,
+      "body": [
+        "**We can control reality (9)**",
+        "**reality can be manipulated (10)**",
+        "~~let's assume that because all things have a vibration / vibrate at certain ranges of frequencies, they can also act as waves and have a resonance.~~",
+        "Our brains may have the ability to produce specific types of vibrational, ~~electromagnetic patterns~~ quantum patterns.",
+        "If we assume that the waves that compose the vibrations have an ~~predisposition~~ *inclination* of aligning with each other, then that can explain…"
+      ]
     },
     {
       "page": 15,
-      "title": "The universe is not mechanical",
       "body": [
-        "A mechanical universe is made of parts that touch. Push here, something moves there, and the explanation is always contact. It is a good model and it stops working exactly where the interesting problems start.",
-        "What I think we are inside of is a vibrational space-time fabric: a medium that carries states rather than a machine that transmits force. Gears explain a clock. They do not explain why the clock is possible."
+        "…manifestation.",
+        "Also going back to why vibration and frequency create the illusion of material.",
+        "Let's imagine there is a laser pointer. If you begin to ~~spin the~~ point the laser in a circular motion, eventually it will create the illusion of a circle.",
+        "**This is what reality is. A projection & interpretation of vibrating fabric (speed of light).**"
       ],
       "figure": {
-        "label": "Figure 04 · diagram slot",
-        "note": "the space-time fabric under vibration — a grid displaced by frequency rather than by mass.",
-        "tag": "Fig. 4",
-        "caption": "Not parts in contact. A medium holding a state."
+        "label": "Illustration · page 15",
+        "note": "Three hand-drawn diagram panels: a scribbled circle, an arced motion arrow, and a laser pointer projecting a circle.",
+        "tag": "Fig. 15"
       }
     },
     {
       "page": 16,
-      "title": "The quantum mold",
       "body": [
-        "The brain produces a mold: a pattern that reality can align with. Not a picture of the world, and not a prediction about it. A shape offered to it.",
-        "Alignment is the whole claim. A mold does not force anything. It makes one outcome easier to fall into than another, the way a resonant cavity does not create sound but decides which frequencies survive in it."
-      ],
-      "figure": {
-        "label": "Figure 05 · diagram slot",
-        "note": "the brain emitting a quantum mold — the mold, then the outcome settling into it.",
-        "tag": "Fig. 5",
-        "caption": "The mold does not push. It decides what is easy."
-      }
+        "To be clear, assuming that the laser analogy is a good example of how the illusion of material is created, it is important to understand that even though the circle itself is composed of a \"mechanical\" dot (laser), the universe is not composed of anything mechanical.",
+        "✱ (To make the analogy cooler, we can say that the laser itself is made of light or electromagnetic waves. So even that isn't mechanical.)",
+        "The point is, the universe ~~isn't~~ *(not exclusively)* a matrix of small particles moving at light speed to create the illusion of the everyday world we observe. But instead,"
+      ]
     },
     {
-      "gap": true,
-      "label": "PAGE 17",
-      "note": "Missing from the surviving set"
+      "page": 17,
+      "body": [
+        "…is a complex matrix of vibrating \"fabric\" that creates the illusion of things like particles or atoms and the everyday world we observe.",
+        "It's not mechanical, it's ~~musical~~ **musical** or vibrational — it's a complex space-time fabric.",
+        "We will get into time and 4-D concepts eventually.",
+        "So, why does the universe being a vibrational matrix matter to you? Because it shows that everything is interwoven with…"
+      ]
     },
     {
       "page": 18,
-      "title": "Consciousness, defined narrowly",
       "body": [
-        "I use my own definition, and it is the reason the next sentence is not mysticism: consciousness is influence on the vibrational construction of reality. Nothing about inner life, nothing about experience, nothing about deserving the word.",
-        "On that definition everything has consciousness, in degrees. A stone influences very little and a mind influences a great deal, and the difference between them is quantity rather than category. Take the definition seriously or reject it, but it is doing work either way."
+        "…or can be influenced by everything else.",
+        "Just like the push of the first domino in a line of infinitely many dominos. except the domino example is a 1-dimensional matrix. Think about how vastly complex it is with the 3D world we experience. And with the other dimensions that we don't experience, ~~oth~~ 4-D, 5-D… all the way until the ultimate and absolute source or GOD.",
+        "GallD ~~[struck — illegible]~~",
+        "So, the universe is constantly influencing itself in parts."
       ]
     },
     {
       "page": 19,
-      "title": "The broadcast",
       "body": [
-        "A radio does not contain the music. Break it and the station keeps transmitting. The set is the condition for reception, not the source of the signal, and nobody confuses the two when the object is a radio."
-      ],
-      "pullQuote": {
-        "quote": "We are not the physical attributes that give us awareness. We are the broadcast.",
-        "caption": "The universe is the radio. We are the signal."
-      }
+        "**We can influence our reality with our minds (9).**",
+        "To get straight to the point, the brain ~~as~~ can be described as technology.",
+        "The brain seems to be able to produce quantum waves that can be described as a 'reality mold' or 'quantum mold'. and since reality is composed of waves it can naturally resonate and align with the mold. (manifestation in relation to our brain).",
+        "✱ What is this quantum wave/mold? ~~[struck — illegible]~~ I'm not sure. but my best ~~gu—~~ guess."
+      ]
     },
     {
       "page": 20,
-      "title": "Shadows cast downward",
+      "title": "influence on Reality",
       "body": [
-        "A sphere casts a circle. The circle is not a smaller sphere, or a wrong sphere; it is a complete and faithful record of a sphere, taken one dimension down. Nothing is missing from the circle. Everything is missing from the circle.",
-        "Run it as a cascade. A thirteen-dimensional sphere casts a twelve-dimensional shadow, and that shadow casts the next, down through every level until one of them lands here. God, on this account, is the sphere. We are the last shadow in the chain, and the resemblance is real."
+        "~~[struck — illegible]~~ is consciousness itself.",
+        "We can also say that everything has it's own energy or quantum waves that manifest itself ✱ as it is ✱. the difference between nature and us is that our minds can also reconstruct it's pattern (neurons linking or releasing, for example.)",
+        "it is our free will that can ~~[struck]~~ influence our minds and in turn influence what is vibrationally affected.",
+        "Things like nature and certain animals who aren't as conscious enough ~~[struck]~~ to influence. ~~our~~ *their* minds manifest as they are. and…"
+      ]
+    },
+    {
+      "page": 21,
+      "body": [
+        "…they are what you see",
+        "~~they are *all* what they are~~",
+        "that's literally what \"animal\" means in hebrew. in ancient hebrew we aren't classified as animals."
       ],
-      "inlineQuote": "We are a shadow of God's perfection.",
+      "box": [
+        "**— Everything has consciousness,** with the *definition* of consciousness being: a *measure* ~~[struck]~~ of the influence ~~[struck]~~ materiel (a collaboration of vibrations) ~~[struck]~~ has on reality.",
+        "~~[struck]~~ **The Mold**"
+      ],
       "figure": {
-        "label": "Figure 06 · primary diagram",
-        "note": "dimensional shadows cascading downward, 13D to 3D, each level dimmer and flatter than the one above it. Tall format, revealed on scroll.",
-        "tag": "Fig. 6",
-        "caption": "Each level is a faithful record of the one above it, and less than it."
+        "label": "Illustration · page 21",
+        "note": "A jagged scribbled mass on the left enclosing a dashed rectangle, with a wavy brace along its edge; an arrow points right, labelled \"time\" above and \"align-ment\" below, toward a solid drawn rectangle. A pointer from the scribbled mass is labelled \"uninfluenced chaos of vibration.\"",
+        "tag": "Fig. 21",
+        "caption": "uninfluenced chaos of vibration."
       }
+    },
+    {
+      "page": 22,
+      "title": "What we are relative to physical reality",
+      "body": [
+        "We are not (Ultimately) the collaboration of neurons forming a sentient, conscious - awareness. **(7)**",
+        "You can describe it as us being the 'in-between'.",
+        "Let ~~me~~ me give a personal ~~example~~ example for context.",
+        "i used to struggle ~~[struck]~~ with certain truths, and it would really drain me of meaning and always place me *into* ~~into~~ a state of existential awareness or dread.",
+        "A truth being, that since i am the creator of this reality, it is possible…"
+      ]
+    },
+    {
+      "page": 23,
+      "body": [
+        "…that i must be the only 'entity' that exists, as it feels like i am the only constant in my reality. *(have you ever felt like you are dreaming)*",
+        "However, the idea that we ~~[struck]~~ create reality is an illusion as well.",
+        "We are creators, yes, but only God is the Ultimate creator.",
+        "in fact, we don't create anything at all, it is ALL **ALREADY THERE!**",
+        "including the infinite versions of yourself. instead, we use tools to *experience* a *finitude* of ~~cosmic~~ creation.",
+        "if you can grasp this concept, then u can…"
+      ]
+    },
+    {
+      "page": 24,
+      "body": [
+        "Understand that we are not anything physical.",
+        "We are a 'signal' or connection to one of infinite realities. ~~of~~ **(6)**",
+        "to use a better word,",
+        "a long time ago i saw a ~~video of~~ rare video of a man who was consious of this. ~~[struck]~~ and now it makes sense to me what he said,",
+        "He said something to the effect of",
+        "**We are Not the physical attributes that…**"
+      ]
+    },
+    {
+      "page": 25,
+      "kicker": "unnumbered — final written page",
+      "body": [
+        "…give us awareness, we are the **BROADCAST**.",
+        "in other words, an anology can say:",
+        "Our ~~[struck]~~ Universe and it's infinite multi-demeinsional realities & possibilities is a radio. ~~and we are the [struck — illegible] on the [struck — illegible] that [struck — illegible] into certain frequencies~~",
+        "and we are the ı"
+      ]
+    },
+    {
+      "gap": true,
+      "label": "ENDS MID-SENTENCE",
+      "note": "The remainder of the page is blank. The manuscript stops here."
     }
-  ],
-  "awaiting": {
-    "anchor": "p21",
-    "label": "PAGES 21 — 24",
-    "state": "Present · awaiting transcription",
-    "body": "Four pages survive and are not yet typed up. They land here, in order, when they are."
-  }
+  ]
 }
