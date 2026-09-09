@@ -23,6 +23,24 @@ const WRAPPERS = [
 const ILLEGIBLE = /\[struck[^\]]*\]/;
 const RATING = /\((\d{1,2})\)/;
 
+/**
+ * Struck text is scratched-out typo, not content: the manuscript record keeps it in
+ * treatise.json, the page drops it. Removing the text rather than the styling avoids
+ * "Let me me give a personal example example" where a false start was rewritten.
+ */
+const STRUCK_WRAPPED = /~~[\s\S]*?~~/g;
+const STRUCK_BARE = /\[struck[^\]]*\]/g;
+
+export const stripStruck = (text) =>
+  typeof text === 'string'
+    ? text
+        .replace(STRUCK_WRAPPED, '')
+        .replace(STRUCK_BARE, '')
+        .replace(/\s{2,}/g, ' ')
+        .replace(/\s+([.,;:!?])/g, '$1')
+        .trim()
+    : text;
+
 export const renderInline = (text, key = 'i', variant = 'manuscript') => {
   if (typeof text !== 'string' || !text) return text;
 
@@ -102,18 +120,26 @@ export const Fragment = ({ data }) => (
       <Reveal className={styles.prose}>
         {data.kicker && <div className={styles.kicker}>{data.kicker}</div>}
         {data.title && <h2 className={styles.title}>{data.title}</h2>}
-        {data.body.map((para, i) => (
-          <p className={styles.para} key={para.slice(0, 40) + i}>
-            {renderInline(para, `p${data.page}-${i}`)}
-          </p>
-        ))}
+        {data.body.map((para, i) => {
+          const clean = stripStruck(para);
+          if (!clean) return null;
+          return (
+            <p className={styles.para} key={para.slice(0, 40) + i}>
+              {renderInline(clean, `p${data.page}-${i}`)}
+            </p>
+          );
+        })}
         {data.box && (
           <div className={styles.box}>
-            {data.box.map((line, i) => (
-              <p className={styles.boxLine} key={line.slice(0, 40) + i}>
-                {renderInline(line, `p${data.page}-b${i}`)}
-              </p>
-            ))}
+            {data.box.map((line, i) => {
+              const clean = stripStruck(line);
+              if (!clean) return null;
+              return (
+                <p className={styles.boxLine} key={line.slice(0, 40) + i}>
+                  {renderInline(clean, `p${data.page}-b${i}`)}
+                </p>
+              );
+            })}
           </div>
         )}
         {data.inlineQuote && (
